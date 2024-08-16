@@ -7,3 +7,8 @@
 
 ## Additional Notes
 - [Any additional comments or observations about the task]
+
+## Participant Details
+- **Name:** [Chi Che]
+- **Task Completed:** Introduction to Terraform and IaC
+- **Date and Time:** [16-08-2024 02:39 am]
