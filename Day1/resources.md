@@ -22,8 +22,8 @@
 2. **[Podcast: DevOps and Docker Talk by Bret Fisher](https://www.bretfisher.com/podcast/)**
    - This podcast covers a wide array of DevOps topics, including IaC and Terraform, with insights from industry experts and practitioners.
 
-3. **[YouTube: Infrastructure as Code with Terraform - AWS Tech Talks](https://www.youtube.com/watch?v=h970ZBgKINg)**
-   - A technical talk by AWS that dives into how Terraform can be used to manage AWS infrastructure as code. It's perfect for those looking to see practical applications of Terraform in the cloud.
+3. **[Introduction to HashiCorp Terraform with Armon Dadgar](https://www.youtube.com/watch?v=h970ZBgKINg)**
+   - A technical talk by Armon co-founder of Hashicorp that dives into how Terraform can be used to manage AWS infrastructure as code. It's perfect for those looking to see practical applications of Terraform in the cloud.
 
 
 ## Bonus Resources
