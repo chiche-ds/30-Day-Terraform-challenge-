@@ -3,12 +3,12 @@
 Welcome to the **30-Day Terraform Challenge** organized by the HashiCorp User Group - Yaoundé! This repository contains all the resources, daily tasks, and discussions for the challenge.
 
 ## 📅 Challenge Timeline
-- **Start Date**: August 15, 2024
-- **End Date**: September 14, 2024
+- **Start Date**: August 17, 2024
+- **End Date**: September 16, 2024
 
 ## 🛠 Resources
 - **Book**: [Terraform: Up & Running](https://www.terraformupandrunning.com/)
-- **Course**: [Udemy Course by Bryan Krausen](https://www.udemy.com/course/terraform/)
+- **Course**: [Udemy Course by Bryan Krausen](https://www.udemy.com/course/terraform-hands-on-labs)
 - **Documentation**: [Official Terraform Documentation](https://developer.hashicorp.com/terraform)
 - **Practice Exams**: [Bryan Krausen’s Practice Exam on Udemy](https://www.udemy.com/course/terraform-associate-certification-practice-exams/)
 
@@ -24,6 +24,6 @@ Welcome to the **30-Day Terraform Challenge** organized by the HashiCorp User Gr
 - Follow us on [LinkedIn](https://www.linkedin.com/company/hashicorp-user-group-yaounde/) for updates and announcements.
 
 ## 📧 Contact Us
-- If you have any questions or need help, feel free to reach out to us through the LinkedIn page or open an issue in this repository.
+- If you have any questions or need help, feel free to post them in the discussion forum.
 
 Let's conquer Terraform together! 🌟
