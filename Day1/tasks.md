@@ -2,7 +2,7 @@
 
 ## Task Description
 
-1. **Reading**: Chapter 1 of "Terraform: Up & Running".
+1. **Reading**: Chapter 1 of "Terraform: Up & Running".by "Yevgeniy (Jim) Brikman"
 2. **Udemy Video**: Watch "What is Infrastructure as Code?" and "Benefits of Infrastructure as Code".
 3. **Activity**: Set up a personal blog if you don't have one. Write a brief introduction about yourself and your goals for the challenge.
 4. **Blog Post**: "What is Infrastructure as Code (IaC) and Why It's Transforming DevOps".
