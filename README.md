@@ -20,8 +20,8 @@ Welcome to the **30-Day Terraform Challenge** organized by the HashiCorp User Gr
 - Complete the daily tasks and submit your progress through pull requests or share your work in the discussions.
 
 ## 🎉 Stay Connected
-- Join the conversation in the [Discussions](https://github.com/your-username/30-Day-Terraform-Challenge/discussions) tab.
-- Follow us on [LinkedIn](https://www.linkedin.com/company/hashicorp-user-group-yaounde/) for updates and announcements.
+- Join the conversation in the [Discussions](https://github.com/chiche-ds/30-Day-Terraform-challenge-/discussions) tab.
+- Follow us on [LinkedIn](https://www.linkedin.com/company/hug-yaound%C3%A9/) for updates and announcements.
 
 ## 📧 Contact Us
 - If you have any questions or need help, feel free to post them in the discussion forum.
