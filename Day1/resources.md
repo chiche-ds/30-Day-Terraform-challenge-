@@ -28,10 +28,7 @@
 
 ## Bonus Resources
 
-1. **[Kelsey Hightower's "Terraform Up and Running" Example Repo](https://github.com/kelseyhightower/terraform-up-and-running)**
-   - Explore practical examples from the book "Terraform: Up & Running" to see how Terraform is applied in various scenarios.
-
-2. **[The Twelve-Factor App](https://12factor.net/)**
+1. **[The Twelve-Factor App](https://12factor.net/)**
    - While not directly about Terraform, understanding the twelve factors of modern app development can give you context on why IaC is so important.
 
 ---
