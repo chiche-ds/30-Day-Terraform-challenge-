@@ -25,7 +25,7 @@ Welcome to Day 1 of the Terraform 30-Day Challenge! Today, we’ll be focusing o
    - **Goal**: Share your insights on IaC based on your reading and videos.
 
 ### 5. **Social Media Post**
-   - **Text**: "🚀 Just kicked off the 30-Day Terraform Challenge! Learning about Infrastructure as Code today. #TerraformChallenge #DevOps #IaC"
+   - **Text**: "🚀 Just kicked off the 30-Day Terraform Challenge! Learning about Infrastructure as Code today. #30daytfchallenge #HUG #hashicorp #HUGYDE @chiche. #IaC"
    - **Goal**: Engage with the community by sharing your progress on social media.
 
 ## How to Submit Your Work
@@ -52,11 +52,11 @@ Welcome to Day 1 of the Terraform 30-Day Challenge! Today, we’ll be focusing o
 
 - [ ] I have read Chapter 1 of "Terraform: Up & Running".
 - [ ] I have watched the required Udemy videos.
-- [ ] I have set up my personal blog.
+- [ ] I have set up your blog.
 - [ ] I have written and published a blog post about today's task.
 - [ ] I have made a social media post about today's task.
 - [ ] I have updated the `daily-update.md` file with my details.
-- [ ] I have created a pull request with all required details.
+- [ ] I have created a pull request with all the required details.
 
 ## Additional Resources
 
