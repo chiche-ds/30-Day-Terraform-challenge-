@@ -18,3 +18,8 @@
 - **Name:** [Ephantus Gachomba]
 - **Task Completed:** Introduction to Terraform and IaC
 - **Date and Time:** [17-08-2024 11:01 pm]
+
+### No: 3
+- **Name:** Nadeem Taj
+- **Task Completed:** Introduction to Terraform and IaC
+- **Date and Time:** [17 Aug at 10:54 pm]
