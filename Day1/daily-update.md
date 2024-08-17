@@ -13,3 +13,8 @@
 - **Name:** [Chi Che]
 - **Task Completed:** Introduction to Terraform and IaC
 - **Date and Time:** [16-08-2024 02:39 am]
+
+### No: 2
+- **Name:** [Ephantus Gachomba]
+- **Task Completed:** Introduction to Terraform and IaC
+- **Date and Time:** [17-08-2024 11:01 pm]
