@@ -16,5 +16,5 @@
 ### No: 2
 - **Name:** Nadeem Taj
 - **Task Completed:** Introduction to Terraform and IaC
-- **Date and Time:** [17 Aug at 5:29 pm]
+- **Date and Time:** [17 Aug at 10:54 pm]
 
