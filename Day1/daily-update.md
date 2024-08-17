@@ -1,15 +1,11 @@
 # Day 1: Introduction to Terraform and Infrastructure as Code (IaC)
 
 ## Participant Details
-- **Name:** [Your Name]
+- **Name:** Kevin Tuei
 - **Task Completed:** Introduction to Terraform and IaC
-- **Date and Time:** [Date and time of completion]
+- **Date and Time:** 17-08-2024 22:40
 
 ## Additional Notes
-- [Any additional comments or observations about the task]
+- Chapter 1 was intriguing for me especially on DevOps being a culture and a set of practices
 
-## Participant Details
-### No: 1
-- **Name:** [Chi Che]
-- **Task Completed:** Introduction to Terraform and IaC
-- **Date and Time:** [16-08-2024 02:39 am]
+
