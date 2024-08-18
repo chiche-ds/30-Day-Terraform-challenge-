@@ -1,4 +1,6 @@
 # Day 2: Setting up Terraform
 
 ## Participant Details
-  - **Name:**Eddie Chem
+  - **Name:**Eddie 
+  - **Task Completed:** Set up AWS IAM Account, installed Terraform using Chocolatey, and configured first Main.tf script file using VScode to spin up a free-tier instance.
+  - **Date and Time:** 8/18/2024 7:13 PM
