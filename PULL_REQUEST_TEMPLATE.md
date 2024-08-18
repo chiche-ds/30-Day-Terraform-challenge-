@@ -1,14 +1,16 @@
-# Pull Request for Day X: [Task Title]
+# Pull Request for Day 1: [Introduction to Terraform and Infrastructure as Code (IaC)]
 
 ## Description
 
-Provide a brief summary of what you accomplished in this pull request. Include details on what you did, how you completed the task, and any key points or changes.
+Installing terraform.
+Purchasing the udemy course.
+Setting version control environment.
 
 ## Task Details
 
-- **Day:** Day X
-- **Task:** [Briefly describe the task or link to the task details]
-- **Branch Name:** [The name of the branch you used for this PR]
+- **Day:** Day 1
+- **Task:** [Installing and configuring terraform on my local machine.]
+- **Branch Name:** [day1-intro-to-terraform]
 
 ## Blog Post
 
@@ -18,22 +20,22 @@ If you wrote a blog post about today’s task, include the link here:
 ## Social Media Post
 
 If you made a social media post about today’s task, include the link here:
-- [Link to your social media post]
+- [Link to your social media post](https://www.linkedin.com/feed/update/urn:li:activity:7230664710960873474/)
 
 ## Changes Made
 
-- [List the key changes or additions made in this pull request. Be specific and provide context.]
+- [Added name and filled the checklist.]
 
 ## Checklist
 
-- [ ] I have completed the task as described in `DayX/tasks.md`.
-- [ ] I have updated the `daily-update.md` file with my details.
-- [ ] I have written and published a blog post about today's task.
-- [ ] I have made a social media post about today's task.
-- [ ] I have used the required hashtags in my social media post.
-- [ ] I have followed the repository's contribution guidelines.
-- [ ] My code follows the repository's coding standards and best practices.
+- [x ] I have completed the task as described in `DayX/tasks.md`.
+- [x ] I have updated the `daily-update.md` file with my details.
+- [x ] I have written and published a blog post about today's task.
+- [x ] I have made a social media post about today's task.
+- [x ] I have used the required hashtags in my social media post.
+- [x ] I have followed the repository's contribution guidelines.
+- [x ] My code follows the repository's coding standards and best practices.
 
 ## Additional Notes
 
-Add any additional notes or comments that might be helpful for reviewers.
+Reading through chapter 1 of the intro to Terraform.
