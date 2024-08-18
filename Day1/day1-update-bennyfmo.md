@@ -6,3 +6,4 @@
 
 ## Additional Notes
 - Had an amazing time reading chapter 1 of the book, and was inspired learning how IaC with Terraform is revolutionizing DEVOPS practice.
+ 
