@@ -55,3 +55,6 @@ terraform {
 
 
 ```
+
+webserver showing on my browser.
+![web server](image.png)
