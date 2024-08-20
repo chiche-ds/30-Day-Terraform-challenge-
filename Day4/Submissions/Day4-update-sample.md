@@ -1,11 +1,8 @@
-# Day4: Day title 
+# Day4: Mastering Basic infrastructure 
 
-## Participant Details
-- **Name:** 
-- **Task Completed:** 
-- **Date and Time:** 
-
+## Participant details
  
+
 # your terraform code 
     ```terraform
         # Your Terraform code here
