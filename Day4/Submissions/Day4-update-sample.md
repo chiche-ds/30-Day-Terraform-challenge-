@@ -1,7 +1,7 @@
-# Day4: Day title 
+# Day4: Mastering Basic Infrastructure with Terraform 
 
 ## Participant Details
-- **Name:** 
+- **Name:** Emmanuel Bernardfomonyuy
 - **Task Completed:** 
 - **Date and Time:** 
 
