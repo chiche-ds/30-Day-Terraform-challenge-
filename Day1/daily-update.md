@@ -1,25 +1,17 @@
 # Day 1: Introduction to Terraform and Infrastructure as Code (IaC)
 
 ## Participant Details
-- **Name:** [Meriem Terki]
+- **Name:** [Elias Ngoran]
 - **Task Completed:** Introduction to Terraform and IaC
 - **Date and Time:** [18/08/2024 2:26 PM]
 
 ## Additional Notes
-- Reading chapter 1 of the book was intresting but time consuming so I have to figure out a way to do it more effectively.
+-Haven't read it in detail for now
 
 ## Participant Details
 ### No: 1
-- **Name:** [Chi Che]
+- **Name:** [ELias Ngoran]
 - **Task Completed:** Introduction to Terraform and IaC
-- **Date and Time:** [16-08-2024 02:39 am]
+- **Date and Time:** [20-08-2024 10:39 am]
 
-### No: 2
-- **Name:** [Ephantus Gachomba]
-- **Task Completed:** Introduction to Terraform and IaC
-- **Date and Time:** [17-08-2024 11:01 pm]
 
-### No: 3
-- **Name:** Nadeem Taj
-- **Task Completed:** Introduction to Terraform and IaC
-- **Date and Time:** [17 Aug at 10:54 pm]
