@@ -175,4 +175,5 @@ resource "aws_lb_listener_rule" "asg" {
 ```
 ## Architecture Diagram:
 
-![Architecture Diagram](https://drive.google.com/file/d/1btTfeSwsG0JaTbQxrGyf66bZ90_hFFhJ/view?usp=sharing)
+![Architecture Diagram](https://drive.google.com/uc?id=1btTfeSwsG0JaTbQxrGyf66bZ90_hFFhJ)
+
