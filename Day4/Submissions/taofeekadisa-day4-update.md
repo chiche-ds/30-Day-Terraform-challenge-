@@ -1,4 +1,4 @@
-# Day 2: Setting up terraform 
+# Day 4: Mastering Basic Infrastructure Deployment with Terraform 
 
 ## Participant Details
 - **Name:** Taofeek Adisa
