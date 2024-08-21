@@ -1,4 +1,4 @@
-# Day4: Day title 
+# Day4: Mastering Basic Infrastructure with Terraform
 
 ## Participant Details
 - **Name:** bennyfmo
