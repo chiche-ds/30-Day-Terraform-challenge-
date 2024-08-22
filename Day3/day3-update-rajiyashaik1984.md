@@ -1,4 +1,4 @@
-# Day 2 : Setting up Terraform
+# Day 3 : Deploy basic infrastructure-terraform
 
 ## Participant Details
 - **Name: ** Rajiya Shaik
