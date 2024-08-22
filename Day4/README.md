@@ -8,14 +8,14 @@ Welcome to Day 4 of the Terraform 30-Day Challenge! Today, we’re building on t
 
 ### 1. **Reading**
    - **Chapter**: Chapter 2 of "Terraform: Up & Running" by Yevgeniy Brikman.
-     - Pages: 60 - 69.
+     - Pages: 60 - the first part of page 70.
    - **Goal**: Gain a deeper understanding of deploying infrastructure using Terraform. Understanding "DRY" concept 
 
 ### 2. **Videos**
    - **Udemy**: Watch the following videos:
      - Rewatch Day 3 videos (Videos 11, 12, and 13) to reinforce your understanding.
-     - "Input Variables" (Video 14)
-     - "Local Variables" (Video 15)
+     - "Input Variables" (Video 17)
+     - "Local Variables" (Video 18)
    - **Goal**: Learn how to use input and local variables in Terraform for more flexible and reusable configurations.
 
 ### 3. **Activity**
