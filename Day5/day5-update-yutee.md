@@ -1,10 +1,11 @@
 ## Day 5 Task
-_Utibe Okon | Wed, August 21 2024 | 11:57 PM_
+_Utibe Okon | Wed, August 22 2024 | 2:29 AM - GMT+1_
 
 ---
 
 __Scaling a webserver with Terraform__
 Scaling is important when the traffic to our server cannot be predicted. To ensure server does not go down due to high traffic, Auto Scalling Groups (ASG) are used to deploy our infrastructure. They manage spining up new servers and conducting healthchecks.
+    ![architecture diagram](https://i.imgur.com/sHNVbHB.png)
 
 To create an asg, a _launch configuration_ is needed,it carries rules for each server in the scale group.
 ```
