@@ -25,7 +25,7 @@ resource "aws_autoscaling_group" "terraform_group" {
   name               = "Terraform-ASG1"
   availability_zones = ["us-east-1a", "us-east-1b"]
   desired_capacity   = 2
-  max_size           = 2
+  max_size           = 10
   min_size           = 2
   launch_template {
     id      = aws_launch_template.terraform_temp.id
