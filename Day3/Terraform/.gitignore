@@ -1,0 +1,10 @@
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+.terraform.tfstate.lock.hcl
+
+# key pair
+*.pem
