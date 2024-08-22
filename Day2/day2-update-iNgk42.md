@@ -12,5 +12,5 @@
     - Video 8: "Installing Terraform"
     - Video 9: "First Steps with Terraform"
     - Video 10: "Understanding the Terraform Workflow"
-- **Date and Time:** 22/08/2024 17:45
+- **Date and Time:** 22/08/2024 17:46
 
