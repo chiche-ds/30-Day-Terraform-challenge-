@@ -5,9 +5,9 @@
 1. **Reading**: Complete Chapter 3 (Pages 81-113)
    - Sections: "State File Isolation", "Isolation via Workspaces", "Isolation via Files Layout", "The Remote State Source".
 2. **Udemy Videos**: 
-   - Video 51: "State Isolation via Workspaces"
-   - Video 52: "State Isolation via File Layouts"
-   - Video 53: "Remote State Storage Recap"
+   - Video 51: "Terraform remote state - Enhanced Backend"
+   - Video 52: "Terraform state migration"
+   - Video 53: "Terraform Backend configuration"
    - Video 54: "State Locking Best Practices"
    - Video 55: "Terraform State in a Team Environment"
 3. **Activity**: 
