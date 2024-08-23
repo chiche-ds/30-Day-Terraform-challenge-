@@ -13,9 +13,9 @@ Welcome to Day 7 of the Terraform 30-Day Challenge! Today, we will continue expl
 
 ### 2. **Videos**
    - **Udemy**: Watch the following videos:
-     - Video 51: "State Isolation via Workspaces"
-     - Video 52: "State Isolation via File Layouts"
-     - Video 53: "Remote State Storage Recap"
+     - Video 51: "Terraform remote state - Enhanced Backend"
+     - Video 52: "Terraform state migration"
+     - Video 53: "Terraform Backend configuration"
      - Video 54: "State Locking Best Practices"
      - Video 55: "Terraform State in a Team Environment"
    - **Goal**: Grasp the benefits and use cases of state isolation and remote state storage in multi-environment and team settings.
@@ -27,7 +27,7 @@ Welcome to Day 7 of the Terraform 30-Day Challenge! Today, we will continue expl
    - **Goal**: Successfully configure isolated environments using both Workspaces and file layout methods. Understand the differences and when to use each approach.
 
 ### 4. **Bonus Hands-On Project**
-   - **Goal**: Configure remote state storage using AWS S3 or an equivalent service in another cloud provider. Lock the state file to prevent conflicts and observe the behavior in a team environment. 
+   - **Goal**: Configure remote state storage using AWS S3 or an equivalent service in another cloud provider. Lock the state file to prevent conflicts and observe the behaviour in a team environment. 
    - **Steps**: Set up remote state storage and state locking across your isolated environments. Test how state locking works when multiple users try to update the infrastructure simultaneously.
 
 ### 5. **Blog Post**
