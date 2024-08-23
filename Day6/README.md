@@ -26,8 +26,7 @@ Welcome to Day 6 of the Terraform 30-Day Challenge! Today, we will focus on unde
    - **Title**: "Managing Terraform State: Best Practices for DevOps"
 
 ### 5. **Social Media Post**
-   - **Text**: "🗂 Learned how to manage Terraform state effectively today. Crucial for consistent deployments! #DevOps #TerraformState #IaC"
-
+   - **Text**: "🗂 Learned how to manage Terraform state effectively today. Crucial for consistent deployments! #30daytfchallenge #HUG #hashicorp #HUGYDE @chiche. #IaC
 ## How to Submit Your Work
 
 ### 1. **Create the `day6-update-your-github-username.md` File**
