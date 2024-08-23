@@ -1,39 +1,23 @@
-# Pull Request for Day X: [Task Title]
-
-## Description
-
-Provide a brief summary of what you accomplished in this pull request. Include details on what you did, how you completed the task, and any key points or changes.
+# Pull Request for Day 3:  Deploying Basic Infrastructure with Terraform
 
 ## Task Details
-
-- **Day:** Day X
-- **Task:** [Briefly describe the task or link to the task details]
-- **Branch Name:** [The name of the branch you used for this PR]
-
-## Blog Post
-
-If you wrote a blog post about today’s task, include the link here:
-- [Link to your blog post]
-
-## Social Media Post
-
-If you made a social media post about today’s task, include the link here:
-- [Link to your social media post]
-
-## Changes Made
-
-- [List the key changes or additions made in this pull request. Be specific and provide context.]
+Task Description
+Reading: Chapter 2 of "Terraform: Up & Running" by Yevgeniy Brikman, focusing on "Deploying a Single Server" and "Deploying a Web Server."
+**Udemy Videos:** *Watch the following videos:*
+**Video 11:** *"Terraform Plug-in Based Architecture"*
+**Video 12:** *"Provider Block"*
+**Video 13:** *"Terraform Resource Block"*
+- **Day:** Day 3
+- **Branch Name:** Ngwa Dieudonne Lobuin
 
 ## Checklist
 
-- [ ] I have completed the task as described in `DayX/tasks.md`.
-- [ ] I have updated the `daily-update.md` file with my details.
-- [ ] I have written and published a blog post about today's task.
-- [ ] I have made a social media post about today's task.
-- [ ] I have used the required hashtags in my social media post.
-- [ ] I have followed the repository's contribution guidelines.
-- [ ] My code follows the repository's coding standards and best practices.
+- [x] I have Read Chapter 2 of "Terraform: Up & Running" by Yevgeniy Brikman, focusing on "Deploying a Single Server" and "Deploying a Web Server."
 
-## Additional Notes
+- [x] I have watched Udemy Videos: Video 11: "Terraform Plug-in Based Architecture", Video 12: "Provider Block", Video 13: "Terraform Resource Block"
+- [x] I have deployed a basic web server using Terraform on AWS
+- [x] I have designed an architecture diagram for the web server using draw.io.
 
-Add any additional notes or comments that might be helpful for reviewers.
+- [x]  I have installed AWS CLI, VSCode, and configured the AWS plugin.
+
+- [x]  I have Embeded my Terraform code inside the day3-update-your-github-username.md file.
