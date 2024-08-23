@@ -1,14 +1,7 @@
-# Day 2: Setting up Terraform
+# Day 2: Setting Up Terraform
 
 ## Participant Details
+
 - **Name:** Duncan Gaturu
-- **Task Completed:** Read chapter 2 of the book provided and focused on "Deploying a Single Server" and "Deploying a Web Server.",Provisioned AWS EC2 server and setup a basic web server using Terraform.
-- **Date and Time:** 2024-08-22 9:00pm
-
-
-main.tf
-```bash
-# Configure the AWS Provider
-provider "aws" {
-  region = "us-east-1"
-}
+- **Task Completed:** Deploying Basic Infrastructure with Terraform
+- **Date and Time:** 2024-08-22 at 9:00 pm
