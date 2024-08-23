@@ -3,7 +3,11 @@
 ## Task Description
 
 1. **Reading**: Complete Chapter 3 (Pages 81-113)
-   - Sections: "State File Isolation", "Isolation via Workspaces", "Isolation via Files Layout", "The Remote State Source".
+   - Sections:
+     - State File Isolation
+     -  Isolation via Workspaces
+     -  Isolation via Files Layout
+     -  The Remote State Source.
 2. **Udemy Videos**: 
    - Video 51: "Terraform remote state - Enhanced Backend"
    - Video 52: "Terraform state migration"
