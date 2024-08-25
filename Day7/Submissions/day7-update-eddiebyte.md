@@ -1,4 +1,4 @@
-# Day 5: Scaling Infrastructure
+# Day 7: Understanding Terraform State Part 2
 
 ## Participant Details
 - **Name:** Eddie Chem
