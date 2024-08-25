@@ -34,6 +34,7 @@ Welcome to Day 9 of the Terraform 30-Day Challenge! Today, we will build on the 
    - **Text**: "🔄 Expanded my knowledge of reusable Terraform modules by adding versioning and deploying across environments! #HUG #hashicorp #HUGYDE @chiche #IaC"
 
 ## How to Submit Your Work
+The submissions folder has been updated with a submissionTemplate file. Use this file as a template to create your daily update.md file in the submission folder 
 
 ### 1. **Create the `day9-update-your-github-username.md` File**
    - Include your Terraform code and any architecture diagrams in the markdown file.
