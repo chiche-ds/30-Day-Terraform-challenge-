@@ -14,3 +14,6 @@ Why Terraform?
 Basic Installation of Terraform on your computer
 Terraform on AWS Cloud9
 
+### Check out my blog on medium
+
+https://medium.com/@dev.am.balamurugan/mastering-terraform-a-comprehensive-guide-to-understanding-implementing-and-installing-terraform-51d03f6de242
