@@ -14,7 +14,7 @@ Welcome to Day 9 of the Terraform 30-Day Challenge! Today, we will build on the 
 ### 2. **Videos**
    - **Udemy**: Watch the following videos:
      - Video 38: "Terraform module - Scope"
-     - Video 39: "Terraform module -  Gotchas"
+     - Video 39: "Terraform module -  Public registry "
      - Video 40: "Terraform module - Versioning"
    - **Goal**: Deepen your understanding of Terraform modules and learn how to manage modules across different versions and environments.
 
