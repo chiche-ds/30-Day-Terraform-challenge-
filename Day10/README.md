@@ -7,7 +7,7 @@ Welcome to Day 10 of the Terraform 30-Day Challenge! Today, we will dive into ad
 ## Tasks for Today
 
 ### 1. **Reading**
-   - **Chapter**: Complete Chapter 5 (Pages 141-160)
+   - **Chapter**: Chapter 5 (Pages 141-160)
      - Sections: "Loops with `count` and `for_each`".
    - **Goal**: Understand how loops can make your Terraform configurations more dynamic and flexible.
 
