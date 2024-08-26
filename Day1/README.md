@@ -50,13 +50,13 @@ Welcome to Day 1 of the Terraform 30-Day Challenge! Today, we’ll be focusing o
 
 ## Checklist
 
-- [ ] I have read Chapter 1 of "Terraform: Up & Running".
-- [ ] I have watched the required Udemy videos.
-- [ ] I have set up your blog.
-- [ ] I have written and published a blog post about today's task.
-- [ ] I have made a social media post about today's task.
-- [ ] I have updated the `daily-update.md` file with my details.
-- [ ] I have created a pull request with all the required details.
+- [x] I have read Chapter 1 of "Terraform: Up & Running".
+- [x] I have watched the required Udemy videos.
+- [x] I have set up your blog.
+- [x] I have written and published a blog post about today's task.
+- [x] I have made a social media post about today's task.
+- [x] I have updated the `daily-update.md` file with my details.
+- [x] I have created a pull request with all the required details.
 
 ## Additional Resources
 
