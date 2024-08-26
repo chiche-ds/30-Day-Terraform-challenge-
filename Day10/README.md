@@ -14,7 +14,7 @@ Welcome to Day 10 of the Terraform 30-Day Challenge! Today, we will dive into ad
 ### 2. **Videos**
    - **Udemy**: Watch the following videos: focus on section 11 of the course. Most of what we will be doing this week is in this section
      - start with the video on input and output variables with Dynamic block. 
-   - **Goal**: Learn how to implement loops and vairables  in your Terraform code to create dynamic and efficient infrastructure deployments.
+   - **Goal**: Learn how to implement loops and variables  in your Terraform code to create dynamic and efficient infrastructure deployments.
 
 ### 3. **Activity**
    - **Modify Existing Code**: Refactor your existing infrastructure code to use loops and conditionals. Use `count` to deploy multiple instances of the same resource, and use `for_each` to iterate over maps or lists of resources.
