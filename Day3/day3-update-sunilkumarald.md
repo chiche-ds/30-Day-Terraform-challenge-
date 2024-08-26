@@ -58,3 +58,4 @@ resource "aws_security_group" "sg1" {
   }
 }
 
+![image](https://github.com/user-attachments/assets/320c3edc-f387-4efe-ab52-c3ab704ff308)
