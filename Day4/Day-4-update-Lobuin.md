@@ -1,6 +1,6 @@
 # Day 4: Mastering Basic Infrastructure with Terraform
 
-## Name: NGWA DIEUDONNE LONUIN 
+## Name: NGWA DIEUDONNE LOBUIN 
 ## Task Completed
 
 1. **Reading**: I have read Chapter 2 of "Terraform: Up & Running" by Yevgeniy Brikman.
