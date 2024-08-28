@@ -11,4 +11,5 @@
    - I have Deployed a basic web server using Terraform on AWS
    - I have Designed an architecture diagram for my web server using [draw.io](https://app.diagrams.net/).
    - I have Installed AWS CLI, VSCode, and configure the AWS plugin.
+   - s3://deyobucket/deplying simple server .drawio.png
   
