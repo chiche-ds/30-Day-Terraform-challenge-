@@ -55,7 +55,6 @@ Welcome to Day 12 of the Terraform 30-Day Challenge! Today, you will learn how t
 - [ ] I have completed Chapter 5 of "Terraform: Up & Running".
 - [ ] I have watched the required Udemy videos on zero-downtime deployments.
 - [ ] I have implemented a zero-downtime deployment strategy with Terraform.
-- [ ] I have deployed a web application with zero downtime using blue/green or canary deployment strategies.
 - [ ] I have written and published a blog post about today's task.
 - [ ] I have made a social media post about today's task.
 - [ ] I have created a `day12-update-your-github-username.md` file with my Terraform code and architecture diagrams.
