@@ -1,9 +1,8 @@
 # Day 1: Introduction to Terraform and Infrastructure as Code (IaC)
 
 ## Participant Details
-- **Name:** [Full Name]
+- **Name:** Janet
 - **Task Completed:** Introduction to Terraform and IaC
-- **Date and Time:** Date and Time]
+- **Date and Time:** 26/8/2024 8.00PM
 
-## Additional Notes
-- [Any additional comments or observations about the task]
+
