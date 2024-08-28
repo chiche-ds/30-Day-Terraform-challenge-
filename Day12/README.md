@@ -12,7 +12,7 @@ Welcome to Day 12 of the Terraform 30-Day Challenge! Today, you will learn how t
    - **Goal**: Understand the key concepts and techniques behind zero-downtime deployments, such as blue/green deployment and canary releases.
 
 ### 2. **Videos**
-   - **Udemy**: At this point, you have to cover the core of Terraform head over to section 9 and watch the video on Terraform workflow 
+   - **Udemy**: At this point, you have cover the core of Terraform head over to section 9 and watch the video on Terraform workflow 
     
    - **Goal**: ensure that you brush up your skills in terraform workflow 
 
