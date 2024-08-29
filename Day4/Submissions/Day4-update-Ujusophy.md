@@ -99,11 +99,6 @@ resource "aws_lb" "app_lb" {
   enable_cross_zone_load_balancing = true
 
   enable_http2 = true
-
-  access_logs {
-    bucket  = "my-logs-bucket"
-    enabled = true
-  }
 }
 
 resource "aws_launch_configuration" "app_lc" {
