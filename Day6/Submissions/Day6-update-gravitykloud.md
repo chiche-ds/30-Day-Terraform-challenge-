@@ -11,10 +11,10 @@
 ```hcl
 provider "aws" {
 region = "us-west-1"
-profile = "dev-profile"
+profile = "Dev-Prof"
 }
 resource "aws_s3_bucket" "terraform_state" {
-bucket = "my-first-terraform-up-and-running-state-bucket"
+bucket = "terraform-state-bucket-backend-shared-storage-iso"
 # Prevent accidental deletion of this S3 bucket
 lifecycle {
 prevent_destroy = true
@@ -57,7 +57,7 @@ type = "S"
 terraform {
 backend "s3" {
 # Replace this with your bucket name!
-bucket = "my-first-terraform-up-and-running-state-bucket"
+bucket = "terraform-state-bucket-backend-shared-storage-iso"
 key = "global/s3/terraform.tfstate"
 region = "us-west-1"
 # Replace this with your DynamoDB table name!
@@ -65,4 +65,5 @@ dynamodb_table = "terraform-up-and-running-locks"
 encrypt = true
 }
 }
+
 ```
