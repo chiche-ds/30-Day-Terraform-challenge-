@@ -6,7 +6,7 @@
 ## Time: 01:17pm
 
 ## Deploy a configurable web server using Terraform.
-```
+```hcl
 provider "aws" {
     region = "us-east-1"
 }
@@ -52,7 +52,7 @@ resource "aws_instance" "web_server" {
 
 ## Deploy a clustered web server using Terraform.
 
-```
+```hcl
 provider "aws" {
   region = "us-east-1"
 }
