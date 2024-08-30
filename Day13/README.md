@@ -54,7 +54,6 @@ Welcome to Day 13 of the Terraform 30-Day Challenge! Today, we focus on one of t
 - [ ] I have completed Chapter 6 of "Terraform: Up & Running".
 - [ ] I have watched the required Udemy videos on secure secrets management.
 - [ ] I have implemented secure management of sensitive data using Vault or AWS Secrets Manager.
-- [ ] I have set up a multi-cloud secure secrets management system as part of the Bonus Hands-On Project.
 - [ ] I have written and published a blog post about today's task.
 - [ ] I have made a social media post about today's task.
 - [ ] I have created a `day13-update-your-github-username.md` file with my Terraform code and architecture diagrams.
