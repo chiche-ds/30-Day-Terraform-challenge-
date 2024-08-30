@@ -8,15 +8,15 @@ Welcome to Day 13 of the Terraform 30-Day Challenge! Today, we focus on one of t
 
 ### 1. **Reading**
    - **Chapter**: Study  Chapter 6 (Pages 191 - 221)
-     - Section: "Secret Management Basics and Secret Management tools".
+     - Section: "Secret Management Basics and Secret Management Tools".
    - **Goal**: Learn how to manage sensitive data securely within Terraform, ensuring that secrets are not exposed in your code or state files.
 
 ### 2. **Videos**
-   - **Udemy**: refresh your knowladge with privously watch videos on State focus more on video 55:
-   - **Goal**: Understand different approaches to secure secrets management and how to integrate these tools into your Terraform workflows.
+   - **Udemy**: refresh your knowledge with previously watched videos on State focus more on video 55:
+   - **Goal**: Understand different secure secret management approaches and how to integrate these tools into your Terraform workflows.
 
 ### 3. **Activity**
-   - **Secure Secrets Management**: Implement secure management of sensitive data such as passwords, API keys, and tokens using Vault or AWS Secrets Manager. Ensure that sensitive information is encrypted and properly masked in state files.
+   - **Secure Secrets Management**: Implement secure management of sensitive data such as passwords, API keys, and tokens using AWS Secrets Manager. Please ensure that sensitive information is encrypted and properly masked in state files.
    - **Goal**: Successfully set up a secure secrets management system and integrate it into your Terraform workflows to protect sensitive data.
 
 ### 5. **Blog Post**
