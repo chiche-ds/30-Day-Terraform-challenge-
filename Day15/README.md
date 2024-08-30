@@ -28,7 +28,7 @@ Welcome to Day 15 of the Terraform 30-Day Challenge! Today, we continue working 
    - **Title**: "Deploying Multi-Cloud Infrastructure with Terraform Modules"
 
 ### 5. **Social Media Post**
-   - **Text**: "🌐 Deployed multi-cloud infrastructure using Terraform today, including Docker and Kubernetes—taking my Terraform skills to the next level! #TerraformChallenge #MultiCloud #DevOps"
+   - **Text**: "🌐 Deployed multi-cloud infrastructure using Terraform today, including Docker and Kubernetes—taking my Terraform skills to the next level! #30daytfchallenge #HUG #hashicorp #HUGYDE @Chi Che. #IaC #terraform"
 
 ### 6. **Activity**
    - **Discussion Preparation**: Prepare questions and topics for tomorrow's live session on Terraform AWS Modules with Anton Babenko. Think about how these concepts apply to your current projects and what you’d like to learn more about.
