@@ -14,7 +14,7 @@ Welcome to Day 15 of the Terraform 30-Day Challenge! Today, we continue working 
 ### 2. **Videos**
    - **Udemy**: Rewatch the videos on Terraform modules:
      - Rewatch video of Day14
-     - **Video 77 **: "AWS multiRegion alais"
+     - **Video 77**: "AWS multiRegion alais"
      - Focus on how modules can be adapted to work with multiple providers.
        
    - **Goal**: Prepare for creating multi-provider modules and deploying multi-cloud resources.
