@@ -29,7 +29,7 @@ Welcome to Day 14 of the Terraform 30-Day Challenge! Today, we will dive into Ch
    - **Title**: "Getting Started with Multiple Providers in Terraform"
 
 ### 6. **Social Media Post**
-   - **Text**: "🔧 Learned how to manage multiple providers in Terraform today—getting ready to scale my infrastructure across multiple regions and accounts! #TerraformChallenge #DevOps #MultiCloud"
+   - **Text**: "🔧 Learned how to manage multiple providers in Terraform today—getting ready to scale my infrastructure across multiple regions and accounts! #30daytfchallenge #HUG #hashicorp #HUGYDE @Chi Che. #IaC #terraform"
 
 ## How to Submit Your Work
 
