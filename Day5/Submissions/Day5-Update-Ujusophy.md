@@ -6,6 +6,8 @@
 ## Time: 01:17pm
 
 ## Scale your web server cluster using Terraform to handle increased load
+
+### main.tf
 ```hcl 
 provider "aws" {
   region = "us-east-1"
@@ -22,13 +24,8 @@ variable "ami_id" {
 }
 
 variable "subnet_ids" {
-  description = "List of Subnet"
+  description = "List of Subnets"
   default     = ["subnet-0b80d1672c1d6452a", "subnet-0846e4641e585a3df"]
-}
-
-variable "num_instances" {
-  description = "Number of instances in the cluster"
-  default     = 2
 }
 
 variable "security_group" {
@@ -36,25 +33,39 @@ variable "security_group" {
   default     = "sg-0c393266741c7f06a"
 }
 
+variable "num_instances" {
+  description = "Number of instances in the cluster"
+  default     = 2
+}
+
 variable "vpc_id" {
   description = "VPC ID"
   default     = "vpc-03a402beb079dd496"
 }
 
-resource "aws_lb" "app_lb" {
-  name               = "app-load-balancer"
-  internal           = false
-  load_balancer_type = "application"
-  security_groups    = [var.security_group]
-  subnets            = var.subnet_ids
-
-  enable_deletion_protection = false
-  idle_timeout              = 4000
-  enable_cross_zone_load_balancing = true
-
-  enable_http2 = true
+# Define EC2 instance module
+module "web_server" {
+  source         = "./modules/ec2-instance"
+  ami_id         = var.ami_id
+  instance_type  = var.instance_type
+  subnet_id      = var.subnet_ids[0] # Adjust as needed
+  security_group = var.security_group
 }
 
+# Load Balancer Configuration
+resource "aws_lb" "app_lb" {
+  name                        = "app-load-balancer"
+  internal                    = false
+  load_balancer_type          = "application"
+  security_groups             = [var.security_group]
+  subnets                     = var.subnet_ids
+  enable_deletion_protection  = false
+  idle_timeout                = 4000
+  enable_cross_zone_load_balancing = true
+  enable_http2                = true
+}
+
+# Launch Configuration for Auto Scaling
 resource "aws_launch_configuration" "app_lc" {
   name          = "app-launch-configuration"
   image_id      = var.ami_id
@@ -73,6 +84,7 @@ resource "aws_launch_configuration" "app_lc" {
   EOF
 }
 
+# Auto Scaling Group Configuration
 resource "aws_autoscaling_group" "app_asg" {
   launch_configuration = aws_launch_configuration.app_lc.id
   min_size             = var.num_instances
@@ -86,10 +98,11 @@ resource "aws_autoscaling_group" "app_asg" {
     propagate_at_launch = true
   }
 
-  health_check_type          = "EC2"
-  health_check_grace_period  = 300
+  health_check_type         = "EC2"
+  health_check_grace_period = 300
 }
 
+# Load Balancer Target Group
 resource "aws_lb_target_group" "app_target_group" {
   name     = "app-target-group"
   port     = 80
@@ -105,6 +118,7 @@ resource "aws_lb_target_group" "app_target_group" {
   }
 }
 
+# Load Balancer Listener
 resource "aws_lb_listener" "http" {
   load_balancer_arn = aws_lb.app_lb.arn
   port              = 80
@@ -116,6 +130,7 @@ resource "aws_lb_listener" "http" {
   }
 }
 
+# Auto Scaling Policies
 resource "aws_autoscaling_policy" "scale_out" {
   name                   = "scale-out"
   scaling_adjustment     = 1
@@ -131,3 +146,34 @@ resource "aws_autoscaling_policy" "scale_in" {
   cooldown               = 300
   autoscaling_group_name = aws_autoscaling_group.app_asg.name
 }
+```
+
+### module.tf
+
+```hcl
+# ./modules/ec2-instance/main.tf
+
+variable "ami_id" {}
+variable "instance_type" {}
+variable "subnet_id" {}
+variable "security_group" {}
+
+resource "aws_instance" "web_server" {
+  ami             = var.ami_id
+  instance_type   = var.instance_type
+  subnet_id       = var.subnet_id
+  security_groups = [var.security_group]
+
+  user_data = <<-EOF
+    #!/bin/bash
+    apt-get update -y
+    apt-get install -y apache2
+    systemctl start apache2
+    systemctl enable apache2
+  EOF
+
+  tags = {
+    Name = "web-server-instance"
+  }
+}
+```
