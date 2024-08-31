@@ -1,24 +1,17 @@
-# Day 2: Setting Up Terraform
+# Day 1: Introduction to Terraform
 
 ## Task Description
 
-1. **Reading**: Chapter 2 of "Terraform: Up & Running" by Yevgeniy (Jim) Brikman, focusing on "Setting Up Your AWS Account", "Installing Terraform." and "Deploying the first two servers"
-2. **Udemy Videos**: Watch the following videos: 
-   - Video 7: "Setting Up Your AWS Account"
-   - Video 8: "Installing Terraform"
-   - Video 9: "First Steps with Terraform"
-   - Video 10: "Understanding the Terraform Workflow"
-   - (Ensure you have completed Video 6 if not already done)
-3. **Activity**: 
-   - Set up your AWS account.
-   - Install Terraform locally.
-   - Install AWS CLI and configure it.
-   - Install Visual Studio Code (VSCode) and add the AWS plugin.
-   - Configure your VSCode to work with AWS.
-   - Deploy and single server and a web server (chapter 2 )
-   - For all tasks in the book, use [draw.io](https://app.diagrams.net/) to create diagrams of the infrastructure.
-4. **Blog Post**: "Step-by-Step Guide to Setting Up Terraform, AWS CLI, and Your AWS Environment."
-5. **Social Media Post**: "💻 Just installed Terraform, AWS CLI, and configured my AWS environment with VSCode. Ready to deploy some infrastructure! #TerraformSetup #AWS #DevOps"
+1. **Reading**: Chapter 1 of "Terraform: Up & Running" by "Yevgeniy Brikman"
+   - I read chapter one of the book, Terraform: Up and Running on the title: Why Terraform
+3. **Udemy Videos**: Watch "What is Infrastructure as Code" and "Benefits of Infrastructure as Code"
+   - I watched the recommended video on Udemy
+4. **Activity**: Set up a personal blog. Write a brief introdiction about yourself and the goals of the challenge.
+   - I set up my blog on Dev.to as seen here https://dev.to/pat6339/my-awesome-journey-in-the-30daytfchallenge-by-hug-yaounde-1pm6
+5. **Blog Post**: "What is Infrastructure as Code (IaC) and Why It Is Transforming DevOps"
+   - wrote the blog and posted it here https://dev.to/pat6339/what-is-infrastructure-as-code-iac0-and-why-its-transforming-devops-1138
+7. **Social Media Post**: "💻 Just kicked off the 30-Day Terraform Challenge! Learning about Infrastructure as Code  #TerraformChallenge #DevOps #Iac
+   - Made a social media post here https://x.com/patwafx/status/1829916976702951457
 
 ## Deliverables
 
