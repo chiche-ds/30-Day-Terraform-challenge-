@@ -12,19 +12,19 @@ Welcome to Day 12 of the Terraform 30-Day Challenge! Today, you will learn how t
    - **Goal**: Understand the key concepts and techniques behind zero-downtime deployments, such as blue/green deployment and canary releases.
 
 ### 2. **Videos**
-   - **Udemy**: At this point, you have cover the core of Terraform head over to section 9 and watch the video on Terraform workflow 
+   - **Udemy**: At this point, you have to cover the core of Terraform head over to section 9 and watch the video on Terraform workflow 
     
    - **Goal**: ensure that you brush up your skills in terraform workflow 
 
 ### 3. **Activity**
-   - **Zero-Downtime Deployment**: Use Terraform to deploy infrastructure updates with zero downtime. Implement blue/green deployment strategies or canary releases using load balancers and carefully managed updates to your web application.
+   - **Zero-Downtime Deployment**: Use Terraform to deploy infrastructure updates with zero downtime. Implement blue/green deployment strategies or canary releases using load balancers and carefully manage updates to your web application.
    - **Goal**: Successfully deploy a web application update without causing downtime, using techniques like blue/green deployments.
 
 ### 4. **Blog Post**
    - **Title**: "Mastering Zero-Downtime Deployments with Terraform"
 
 ### 5. **Social Media Post**
-   - **Text**: "🚀 Successfully deployed a zero-downtime update using Terraform! "
+   - **Text**: "🚀 Successfully deployed a zero-downtime update using Terraform! #30daytfchallenge #HUG #hashicorp #HUGYDE @Chi Che. #IaC #terraform"
 
 ### 7. **Activity**
    - **Screencast**: Record a screencast of your zero-downtime deployment process and share it on YouTube. Walk through your Terraform code and explain how blue/green or canary deployments work in practice.
