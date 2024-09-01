@@ -4,7 +4,7 @@
 
 - **Name:** BOROHOUL Soguelni Malachie
 - **Task Completed:** I learned how to implement loops to create dynamic infrastructure. I also refactored my existing infrastructure, published a blog post
-- **Date and Time:** 8/29/2024 12:50 PM 
+- **Date and Time:** 9/01/2024 08:50 PM 
 
 ## Terraform Code 
 In the previous code, a fixed Auto Scaling Group and Launch Configuration were created. I now use count to dynamically deploy the required number of EC2 instances. I also use for_each to iterate over a map of values, instead of writing multiple security group rules for each port or protocol. I used count with conditionals to decide whether to deploy certain resources based on a boolean variable.
