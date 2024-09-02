@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Day 4: Mastering Basic Infrastructure with Terraform
 
 ## Overview
