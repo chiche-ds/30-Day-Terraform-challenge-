@@ -175,4 +175,6 @@ resource "aws_lb_listener_rule" "asg" {
 }
 ```
 ## Architecture Diagram:
-[Terraform Code for Deploying Scalable Infrastructure - Servers with ASG](s3://deyobucket/Deploying Scalable Infrastructure - Servers with AS.drawio)
+
+[ Terraform Code for Deploying Scalable Infrastructure - Servers with ASG
+]([s3://deyobucket/Deploying Scalable Infrastructure Servers with AS.drawio](https://deyobucket.s3.amazonaws.com/Deploying+Scalable+Infrastructure+-+Servers+with+AS.drawio))
