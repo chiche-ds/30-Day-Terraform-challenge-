@@ -2,8 +2,9 @@
 
 ## Participant Details
 - **Name:** Ngwa Dieudonne Lobuin
-- **Task Completed:** All tasks for Day 5 apart from social media post. Learned about different blocks in Terraform, and how to automate the deployment of a load balancer for scaling a cluster of web servers to meet up with traffic demands.
+- **Task Completed:** Learnt about different blocks in Terraform and how to automate the deployment of a load balancer and scaling a cluster of web servers in order to meet up traffic demands.
 - **Date and Time:** 8/30/2024
+4:30 am
 
 ## Terraform Code for Deploying Scalable Infrastructure - Servers with ASG
 ```hcl
