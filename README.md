@@ -27,4 +27,3 @@ Welcome to the **30-Day Terraform Challenge** organized by the HashiCorp User Gr
 - If you have any questions or need help, feel free to post them in the discussion forum.
 
 Let's conquer Terraform together! 🌟
->>>>>>> origin/day4-mastering-basic-infrastructure
