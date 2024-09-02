@@ -7,6 +7,34 @@
 - **Date and Time:** 2024-08-20 15:18pm
 
 ```
+/project-root
+│
+├── main.tf
+│
+├── modules
+│   ├── vpc
+│   │   ├── variables.tf
+│   │   ├── outputs.tf
+│   │   └── main.tf
+│   │
+│   ├── ec2
+│   │   ├── variables.tf
+│   │   ├── outputs.tf
+│   │   ├── main.tf
+│   │   ├── install_nginx.sh
+│   │   └── do_stuff.sh
+│   │
+│   └── sg
+│       ├── variables.tf
+│       ├── outputs.tf
+│       └── main.tf
+│
+├── outputs.tf
+└── variables.tf
+
+```
+
+```
 terraform {
   required_providers {
     aws = {
