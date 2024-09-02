@@ -32,7 +32,8 @@ Welcome to Day 2 of the Terraform 30-Day Challenge! Today, we’ll focus on sett
    - **Goal**: Write a detailed guide on how to set up Terraform, AWS CLI, and VS Code. Share any tips or challenges you encountered and how you resolved them.
 
 ### 5. **Social Media Post**
-   - **Text**: "💻 Just installed Terraform, AWS CLI, and configured VS Code. Ready to deploy some infrastructure! #TerraformSetup #AWS #DevOps #VSCode"
+   - **Text**: "💻 Just installed Terraform, AWS CLI, and configured VS Code. Ready to deploy some infrastructure! #30daytfchallenge #HUG #hashicorp #HUGYDE @Chi Che. #IaC #terraform
+"
    - **Goal**: Engage with the community by sharing your progress on social media.
 
 ### 6. **Bonus Activity**
