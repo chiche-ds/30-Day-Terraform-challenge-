@@ -1,9 +1,9 @@
-# Day 10: Understanding Terraform State
+# Day 10: Terraform Loops and Conditionals
 
 ## Participant Details
 
 - **Name:** Alvin Ndungu
-- **Task Completed:** Loops with `count` and `for_each`
+- **Task Completed:** Terraform Loops and Conditionals
 - **Date and Time:** 2024-08-20 15:18pm
 
 
