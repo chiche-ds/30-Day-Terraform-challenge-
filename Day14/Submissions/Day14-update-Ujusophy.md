@@ -7,8 +7,6 @@
 - **Task Completed:** Terraform configurations using multiple copies of the same provider and Experiment with provider aliases and versions.
 - **Date and Time:** 9/03/2024 08:56 PM 
 
-### Using AWS Secret Manager
-
 ```hcl
 terraform {
   required_providers {
