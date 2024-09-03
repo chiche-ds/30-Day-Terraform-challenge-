@@ -1,0 +1,3 @@
+#Auto scaling with Terraform
+Understood what terraform blocks are and also added another resouce to my flie whicg is auto scaling with terraform and the improtant of is for high availability
+One important thing i really learned toady wsa that once you make modifications to your file, terraform will destroy the previous creared resources before creating new ones
