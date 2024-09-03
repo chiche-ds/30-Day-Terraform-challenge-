@@ -6,17 +6,12 @@
 - **Task Completed:** Use conditionals to deploy resources only when certain conditions are met
 - **Date and Time:** 09/03/2024 01:05 PM
 
-## Using count to Deploy Multiple Instances
+## Implementing Conditional Logic using `count` to Deploy Multiple Instances
 ### modules.tf
 ```hcl
-variable "instance_count" {
-  description = "Number of EC2 instances to deploy"
-  type        = number
-  default     = 1
+provider "aws" {
+  region = var.region
 }
-
-variable "region" {}
-variable "instance_type" {}
 
 data "aws_ami" "latest" {
   most_recent = true
@@ -35,21 +30,27 @@ data "aws_ami" "latest" {
 }
 
 resource "aws_instance" "this" {
-  count         = var.instance_count
+  count         = var.create_ec2_instance ? var.instance_count : 0
   ami           = data.aws_ami.latest.id
   instance_type = var.instance_type
   tags = {
-    Name = "web-server-${count.index + 1}"
+    Name = "testing-${count.index + 1}"
   }
 }
+
+variable "region" {}
+variable "instance_count" {}
+variable "create_ec2_instance" {}
+variable "instance_type" {}
 ```
 ### main.tf
 ```hcl
 module "ec2_instance" {
-  source          = "./terraform-modules/ec2-instance"
-  instance_count  = var.instance_count
-  instance_type   = var.instance_type
-  region          = var.region
+  source = "./terraform-modules/ec2-instance"
+  instance_count      = var.instance_count
+  create_ec2_instance = var.create_ec2_instance
+  region              = var.region
+  instance_type       = var.instance_type
 }
 
 variable "region" {
@@ -57,14 +58,20 @@ variable "region" {
   default     = "us-east-1"
 }
 
+variable "instance_count" {
+  description = "Number of EC2 instances to deploy"
+  default     = 2
+}
+
 variable "instance_type" {
   description = "The EC2 instance type"
   default     = "t2.micro"
 }
 
-variable "instance_count" {
-  description = "Number of EC2 instances to deploy"
-  default     = 2
+variable "create_ec2_instance" {
+  description = "Whether to create EC2 instances"
+  type        = bool
+  default     = true
 }
 ```
 
@@ -122,7 +129,3 @@ resource "aws_instance" "this" {
   }
 }
 ```
-
-
-## Implementing Conditional Logic
-
