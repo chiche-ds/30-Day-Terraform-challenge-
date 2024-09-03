@@ -21,4 +21,39 @@
 -Wrote an article titled "" and hosted it on my blog at Dev.to
 - Updated my progress on social media by tweeting on X
 
- #### **Date and Time:** 3/09/2024 4:04 PM
+- **Terraform Code**
+
+
+provider  "aws" {
+    region = "us-east-1"
+}
+
+resource "aws_instance" "My-Ec2instance" {
+ ami = "ami-0e86e20dae9224db8" #Ubuntu 20.04 LTS
+ instance_type = "t2.micro"
+ vpc_security_group_ids = [aws_security_group.instance.id]
+
+
+ user_data = <<-EOF
+             #!/bin/bash
+             echo "Hello, World" > index.html
+             nohup busybox httpd -f -p 8080 &
+                 
+
+                  EOF
+             user_data_replace_on_change = true
+ tags = {
+    Name = "Terraform-Instance"
+ }
+}
+
+resource "aws_security_group" "instance" {
+ name = "terraform-SG-instance"
+ ingress {
+ from_port = 8080
+ to_port = 8080
+ protocol = "tcp"
+ cidr_blocks = ["0.0.0.0/0"]
+ }
+}
+ #### **Date and Time:** 3/09/2024 4:10 PM
