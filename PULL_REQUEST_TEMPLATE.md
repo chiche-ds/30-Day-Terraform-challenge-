@@ -1,4 +1,4 @@
-# Pull Request for Day X: [Task Title]
+# Pull Request for Day 1: [Introduction to Terraform and Infrastructure as Code (IaC)]
 
 ## Description
 
@@ -6,9 +6,9 @@ Provide a brief summary of what you accomplished in this pull request. Include d
 
 ## Task Details
 
-- **Day:** Day X
-- **Task:** [Briefly describe the task or link to the task details]
-- **Branch Name:** [The name of the branch you used for this PR]
+- **Day:** Day 1
+- **Task:** [Introduction to Terraform and Infrastructure as Code (IaC)]
+- **Branch Name:** [30days]
 
 ## Blog Post
 
@@ -26,13 +26,13 @@ If you made a social media post about today’s task, include the link here:
 
 ## Checklist
 
-- [ ] I have completed the task as described in `DayX/tasks.md`.
-- [ ] I have updated the `daily-update.md` file with my details.
+- [*] I have completed the task as described in `DayX/tasks.md`.
+- [*] I have updated the `daily-update.md` file with my details.
 - [ ] I have written and published a blog post about today's task.
 - [ ] I have made a social media post about today's task.
 - [ ] I have used the required hashtags in my social media post.
-- [ ] I have followed the repository's contribution guidelines.
-- [ ] My code follows the repository's coding standards and best practices.
+- [*] I have followed the repository's contribution guidelines.
+- [*] My code follows the repository's coding standards and best practices.
 
 ## Additional Notes
 
