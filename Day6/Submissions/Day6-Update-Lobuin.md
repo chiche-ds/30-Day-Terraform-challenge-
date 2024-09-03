@@ -86,5 +86,5 @@ output "dynamodb_table_name" {
   description = "The name of the DynamoDB table"
 }
 ```
-# Architecture Diagram for Terraform State Management with AWS S3 and DynamoDB
+# A diagram showing the architecture of Terraform State Management with AWS S3 and DynamoDB
 [Terraform State Management with AWS S3 and DynamoD](https://deyobucket.s3.amazonaws.com/Diagram+of+a+cluster+of+Web+Servers++with+Auto-scaling+Group.png)
