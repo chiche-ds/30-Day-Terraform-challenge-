@@ -3,9 +3,9 @@
 
 ## Participant Details
 
-- **Name:** BOROHOUL Soguelni Malachie
+- **Name:** Njoku Ujunwa Sophia
 - **Task Completed:** Deploying a web application with canary releases, ensuring that infrastructure updates cause no service interruptions.
-- **Date and Time:** 9/02/2024 00:03 PM 
+- **Date and Time:** 9/03/2024 06:48 PM 
 
 main.tf
 ```hcl
