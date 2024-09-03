@@ -87,3 +87,4 @@ output "dynamodb_table_name" {
 }
 ```
 # Architecture Diagram for Terraform State Management with AWS S3 and DynamoDB
+[Terraform State Management with AWS S3 and DynamoD](https://deyobucket.s3.amazonaws.com/Diagram+of+a+cluster+of+Web+Servers++with+Auto-scaling+Group.png)
