@@ -1,4 +1,4 @@
-# Day 13: Managing Sensitive Data in Terraform
+# Day 14: Managing Sensitive Data in Terraform
 
 
 ## Participant Details
