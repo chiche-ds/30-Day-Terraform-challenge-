@@ -23,7 +23,7 @@ Welcome to Day 13 of the Terraform 30-Day Challenge! Today, we focus on one of t
    - **Title**: "How to Handle Sensitive Data Securely in Terraform"
 
 ### 6. **Social Media Post**
-   - **Text**: "🔐 Configured secure management of sensitive data in Terraform today! #DevOps #Terraform #Security"
+   - **Text**: "🔐 Configured secure management of sensitive data in Terraform today! #30daytfchallenge #HUG #hashicorp #HUGYDE @Chi Che. #IaC #terraform"
 
 ### 7. **Activity**
    - **Advanced Guide**: Write an advanced guide on secure secrets management across multiple cloud environments. Include examples, best practices, and a step-by-step walkthrough. Share this guide on GitHub to help others implement secure secrets management in their Terraform workflows.
