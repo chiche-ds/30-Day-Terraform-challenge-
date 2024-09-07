@@ -7,7 +7,7 @@
 - **Date and Time:** 2024-08-26 at 10:00 pm
 
 ## Terraform Code 
-
+```
 # Configure the AWS Provider
 provider "aws" {
   region = "us-east-1"
@@ -152,5 +152,5 @@ resource "aws_instance" "web-server-instance" {
   }
 }
  
-
+```
 
