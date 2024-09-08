@@ -11,7 +11,7 @@ Read Chapter 3 (Pages 81-113), Sections: "What is Terraform State?", "Shared Sto
 04-09-2024 at 07:23 am IST
 
 # main.tf 
-#provider block
+# provider block
 provider "aws" {
 region = "ap-south-1"
 }
@@ -51,7 +51,7 @@ block_public_policy = true
 ignore_public_acls = true
 restrict_public_buckets = true
 }
-**#Dynamodb table**
+# Dynamodb table
 resource "aws_dynamodb_table" "terraform_locks" {
 name = "terraform-up-and-running-locks-2"
 billing_mode = "PAY_PER_REQUEST"
@@ -64,12 +64,12 @@ type = "S"
 
 /*terraform {
 backend "s3" {
-# Replace this with your bucket name!
+
 bucket = "terraform-up-and-running-state-digibodh"
 //key = "global/s3/terraform.tfstate"
 key = "workspaces-example/terraform.tfstate"
 region = "ap-south-1"
-# Replace this with your DynamoDB table name!
+
 dynamodb_table = "terraform-up-and-running-locks"
 encrypt = true
 }
