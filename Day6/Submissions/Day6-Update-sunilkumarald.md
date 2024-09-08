@@ -1,21 +1,21 @@
-**Day6:
-Understanding Terraform State**
-**Participant Details**
+#  Day6: Understanding Terraform State
+#  Participant Details
 **Name:** 
 Sunil Kumar
-**Task Completed:** 
+#  Task Completed:
 Read Chapter 3 (Pages 81-113), Sections: "What is Terraform State?", "Shared Storage for State Files", and "Managing State Across Teams" from the book Terraform Up and Running by Yevgeniy Brickman.
-**Hands-on Activity completed:**
+#  Hands-on Activity completed:
 (i)Deployed infrastructure and inspect the Terraform state file.
 (ii)Configure remote state storage using AWS S3 or another cloud provider.
-**Date and Time:** 04-09-2024 at 07:23 am IST
+# Date and Time: 
+04-09-2024 at 07:23 am IST
 
-**main.tf **
+# main.tf 
 #provider block
 provider "aws" {
 region = "ap-south-1"
 }
-**#s3 bucket creation**
+# s3 bucket creation**
 resource "aws_s3_bucket" "terraform_state" {
 bucket = "terraform-up-and-running-state-digibodh2"
 # Prevent accidental deletion of this S3 bucket
