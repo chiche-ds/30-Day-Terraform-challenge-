@@ -15,7 +15,7 @@ Read Chapter 3 (Pages 81-113), Sections: "What is Terraform State?", "Shared Sto
 provider "aws" {
 region = "ap-south-1"
 }
-# s3 bucket creation**
+# s3 bucket creation
 resource "aws_s3_bucket" "terraform_state" {
 bucket = "terraform-up-and-running-state-digibodh2"
 # Prevent accidental deletion of this S3 bucket
