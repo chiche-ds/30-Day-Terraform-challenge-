@@ -1,11 +1,15 @@
-Day 6: Understanding Terraform State
-Participant Details
-Name: Sunil Kumar
-Task Completed: Read Chapter 3 (Pages 81-113), Sections: "What is Terraform State?", "Shared Storage for State Files", and "Managing State Across Teams" from the book Terraform Up and Running by Yevgeniy Brickman.
-Hands-on Activity completed: Activity:
+**Day6:
+Understanding Terraform State**
+**Participant Details**
+**Name:** 
+Sunil Kumar
+**Task Completed:** 
+Read Chapter 3 (Pages 81-113), Sections: "What is Terraform State?", "Shared Storage for State Files", and "Managing State Across Teams" from the book Terraform Up and Running by Yevgeniy Brickman.
+**Hands-on Activity completed:**
 (i)Deployed infrastructure and inspect the Terraform state file.
 (ii)Configure remote state storage using AWS S3 or another cloud provider.
-Date and Time: 04-09-2024 at 07:23 am IST
+**Date and Time:** 04-09-2024 at 07:23 am IST
+
 **main.tf **
 #provider block
 provider "aws" {
