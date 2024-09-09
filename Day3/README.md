@@ -28,7 +28,8 @@ Welcome to Day 3 of the Terraform 30-Day Challenge! Today, we're diving into dep
    - **Title**: "Deploying Your First Server with Terraform: A Beginner's Guide"
 
 ### 5. **Social Media Post**
-   - **Text**: "🔥 Deployed my first server using Terraform today! It’s amazing how simple IaC makes this. #TerraformBeginner #CloudComputing #DevOps"
+   - **Text**: "🔥 Deployed my first server using Terraform today! It’s amazing how simple IaC makes this.#30daytfchallenge #HUG #hashicorp #HUGYDE @Chi Che. #IaC #terraform
+"
 
 ### 6. **Video Tutorial (Optional)**
    - **Activity**: Create a video tutorial or screen recording of your deployment process and share it on YouTube or LinkedIn.

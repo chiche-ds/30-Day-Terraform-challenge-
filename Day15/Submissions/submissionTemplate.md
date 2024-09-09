@@ -2,8 +2,8 @@
 
 ## Participant Details
 
-- **Name:** 
-- **Task Completed:** 
+- **Name:**
+- **Task Completed:**
 - **Date and Time:** 
 
 ## Terraform Code 
@@ -12,5 +12,5 @@
 
 ```
 ## Architecture 
-[Name](link to image in S3 bucket)
 
+[Name](link to image in S3 bucket)
