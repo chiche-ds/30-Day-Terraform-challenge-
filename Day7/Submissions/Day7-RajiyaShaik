@@ -1,0 +1,109 @@
+# Day 7: State file Isolation 
+
+## Participant Details
+
+- **Name:**Rajiya Shaik
+- **Task Completed:**
+Reading: 
+
+Completed Chapter 3 (Pages 81-113)
+
+Sections:
+
+State File Isolation
+
+Isolation via Workspaces
+
+Isolation via Files Layout
+
+The Remote State Source.
+
+Udemy Videos:
+
+Video 51: "Terraform remote state - Enhanced Backend"
+
+Video 52: "Terraform state migration"
+
+Video 53: "Terraform Backend configuration"
+
+Video 54: "State Locking Best Practices"
+
+Video 55: "Terraform State in a Team Environment"
+
+- **Date and Time:** 03-092-24
+
+## Terraform Code 
+```hcl
+provider "aws" {
+  region = "us-east-2"
+}
+
+#create s3 bucket
+resource "aws_s3_bucket" "state1" {
+  bucket = "razia-state-bucket1"
+}
+
+#Enable versioning so you can see the full revision history of your
+# state files
+resource "aws_s3_bucket_versioning" "enabled" {
+  bucket = aws_s3_bucket.state1.id
+  versioning_configuration {
+     status = "Enabled"
+ }
+}
+
+
+# Enable server-side encryption by default
+resource "aws_s3_bucket_server_side_encryption_configuration" "default" {
+   bucket = aws_s3_bucket.state1.id
+rule {
+  apply_server_side_encryption_by_default {
+    sse_algorithm = "AES256"
+   }
+ }
+}
+
+# Explicitly block all public access to the S3 bucket
+resource "aws_s3_bucket_public_access_block" "public_access" {
+   bucket = aws_s3_bucket.state1.id
+   block_public_acls = true
+   block_public_policy = true
+   ignore_public_acls = true
+   restrict_public_buckets = true
+}
+
+#create DynamoDB Table for Locking
+resource "aws_dynamodb_table" "terraform_locks1" {
+   name = "terraform-running-locks1"
+   billing_mode = "PAY_PER_REQUEST"
+   hash_key = "LockID"
+   attribute {
+     name = "LockID"
+     type = "S"
+ }
+}
+#configure backend s3
+terraform {
+  backend "s3" {
+# Replace this with your bucket name!
+    bucket = "razia-state-bucket1"
+    key = "workspace-example/terraform.tfstate"
+    region = "us-east-2"
+# Replace this with your DynamoDB table name!
+   dynamodb_table = "terraform-running-locks1"
+   encrypt = true
+ }
+}
+#creating instance via workspace
+resource "aws_instance" "example" {
+ami = "ami-085f9c64a9b75eed5"
+instance_type = "t2.micro"
+
+}
+
+
+```
+## blog 
+
+[Day7blog](https://medium.com/@sulthana.sk.1984/isolation-of-state-file-using-workspaces-in-terraform-827e60c3f521)
+
