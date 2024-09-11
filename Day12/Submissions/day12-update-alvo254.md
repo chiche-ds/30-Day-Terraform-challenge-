@@ -1,4 +1,4 @@
-# Day 12: Understanding Terraform State
+# Day 12: Zero-Downtime Deployment with Terraform
 
 ## Participant Details
 
