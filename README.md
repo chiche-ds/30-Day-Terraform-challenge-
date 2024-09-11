@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-## Submit your file in this folder 
-=======
+
 # 30-Day Terraform Challenge 🚀
 
 Welcome to the **30-Day Terraform Challenge** organized by the HashiCorp User Group - Yaoundé! This repository contains all the resources, daily tasks, and discussions for the challenge.
@@ -30,4 +28,3 @@ Welcome to the **30-Day Terraform Challenge** organized by the HashiCorp User Gr
 - If you have any questions or need help, feel free to post them in the discussion forum.
 
 Let's conquer Terraform together! 🌟
->>>>>>> b4987c5f36de4d51884d2466b1c87322178be32f
