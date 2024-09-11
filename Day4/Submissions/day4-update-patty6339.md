@@ -9,6 +9,10 @@
 - Update the daily-update.md file.
 - **Date and Time:** 3/9/24 5:52 PM
 
+## Architecture Diagram
+
+[2-tier diagram](./ASG_patty6339.png)
+
  # Terraform Code - Deploying a Configurable Web Server
 ```hcl
 provider "aws" {
