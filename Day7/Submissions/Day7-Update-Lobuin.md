@@ -1,3 +1,36 @@
+## Configure your environment variables:
+
+```
+export AWS_ACCESS_KEY_ID=(your access key id)
+export AWS_SECRET_ACCESS_KEY=(your secret access key)
+```
+## Deploy the code:
+```hcl
+terraform init
+terraform apply
+```
+## Create a new workspace: Stage
+
+```
+terraform workspace new Stage
+```
+
+## Create a new workspace: Production
+
+```
+terraform workspace new Production
+```
+
+## Then switch back to the default workspace:
+
+```
+terraform workspace switch default
+```
+
+
+
+
+
 ```hcl
 
 provider "aws" {
