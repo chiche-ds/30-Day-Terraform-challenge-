@@ -1,16 +1,11 @@
-## Tasks Completed
+## Participant Details
+- **Name:** Ngwa Dieudonne Lobuin
+- **Task Completed:** : Workspace and File Layouts
+- **Date and Time:** 2024-10-24 12:36pm
 
-## 1. **Reading**
 - I have Completed Chapter 3 (Pages 81-113)
 - Sections: "State File Isolation", "Isolation via Workspaces", "Isolation via Files Layout", and "The Remote State Source".
    - I Understand the two primary methods of state isolation and how to manage state across different environments.
-
-## 2. **Videos**
-     - Video 51: "Terraform remote state - Enhanced Backend"
-     - Video 52: "Terraform state migration"
-     - Video 53: "Terraform Backend configuration"
-     - Video 54: "State Locking Best Practices"
-     - Video 55: "Terraform State in a Team Environment"
 
 ## Configure your environment variables:
 
