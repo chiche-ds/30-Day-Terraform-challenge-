@@ -1,7 +1,7 @@
 ## Participant Details
 - **Name:** Ngwa Dieudonne Lobuin
 - **Task Completed:** : Workspace and File Layouts
-- **Date and Time:** 2024-10-24 12:36pm
+- **Date and Time:** 09-09-2024 12:00 am
 
 - I have Completed Chapter 3 (Pages 81-113)
 - Sections: "State File Isolation", "Isolation via Workspaces", "Isolation via Files Layout", and "The Remote State Source".
@@ -37,6 +37,8 @@ terraform workspace switch default
 ```
 
 
+
+## Managing terraform State using Workspace and file Layout
 
 
 
