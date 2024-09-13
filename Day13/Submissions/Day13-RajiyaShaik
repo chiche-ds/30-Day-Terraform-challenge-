@@ -1,0 +1,80 @@
+# Day 13: Managing Sensitive Data in Terraform
+
+## Participant Details
+
+- **Name:**Rajiya Shaik
+- **Task Completed:**Reading: Completed Chapter 6 
+
+
+Activity:
+Implemented secure management of sensitive data such as passwords, API keys, and tokens using AWS Secrets Manager.
+
+
+
+## Terraform Code 
+## main.tf
+```hcl
+terraform {
+  required_version = ">= 1.0.0, < 2.0.0"
+
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = "us-east-2"
+}
+
+data "aws_secretsmanager_secret_version" "creds" {
+  secret_id = "db-credens"
+}
+
+locals {
+  db_creds = jsondecode (
+    data.aws_secretsmanager_secret_version.creds.secret_string
+  )
+}
+
+resource "aws_db_instance" "example" {
+  identifier_prefix   = "terraform-up-and-running"
+  engine              = "mysql"
+  allocated_storage   = 20
+  instance_class      = "db.t3.micro"
+  skip_final_snapshot = true
+  db_name             = var.db_name
+
+  # Pass the secrets to the resource
+  username = local.db_creds.username
+  password = local.db_creds.password
+}
+```
+## variables.tf
+```
+
+variable "db_name" {
+  description = "The name to use for the database"
+  type        = string
+  default     = "example"
+}
+```
+## outputs.tf
+```
+output "address" {
+  value       = aws_db_instance.example.address
+  description = "Connect to the database at this endpoint"
+}
+
+output "port" {
+  value       = aws_db_instance.example.port
+  description = "The port the database is listening on"
+}
+```
+## links
+
+[day13-blog](https://medium.com/@sulthana.sk.1984/handle-sensitive-data-securely-in-terraform-using-aws-secrets-manager-bec5dd718c71)
+
+[day13-linkedin post](https://www.linkedin.com/posts/rajiyashaik_handle-sensitive-data-securely-in-terraform-activity-7240399317885202432-Rluv?utm_source=share&utm_medium=member_desktop)
