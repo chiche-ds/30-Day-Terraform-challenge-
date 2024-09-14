@@ -1,0 +1,57 @@
+# Day 11: Terraform Conditionals 
+
+## Participant Details
+
+- **Name:**Rajiya Shaik
+- **Task Completed:**
+Reading: Completed Chapter 5 (Pages 160-169)
+Sections: "Conditionals with Terraform".
+
+Udemy Videos:
+Variable Collection and Structure Types
+Working with Data Blocks
+Terraform Built-in Functions
+
+
+
+## MultiRegion Setup
+```
+variable "region" {
+  default = "us-west-1"
+}
+
+resource "aws_instance" "web" {
+  ami           = var.region == "us-west-1" ? "ami-0c55b159cbfafe1f0" : "ami-12345678"
+  instance_type = "t2.micro"
+}
+```
+## Conditional Iteration with for_each and for Expressions-Dynamic Security Group Rules
+```
+variable "environments" {
+  default = ["dev", "prod"]
+}
+
+resource "aws_security_group" "example" {
+  name = "example"
+
+  dynamic "ingress" {
+    for_each = var.environments == "prod" ? [ { from_port = 80, to_port = 80, protocol = "tcp", cidr_blocks = ["0.0.0.0/0"] } ] : []
+
+    content {
+      from_port   = ingress.value.from_port
+      to_port     = ingress.value.to_port
+      protocol    = ingress.value.protocol
+      cidr_blocks = ingress.value.cidr_blocks
+    }
+  }
+}
+
+```
+
+
+[Day11-blog](https://medium.com/@sulthana.sk.1984/how-conditionals-simplify-infrastructure-as-code-with-terraform-7444595b64fd)
+
+[Day11-likedin-post](https://www.linkedin.com/posts/rajiyashaik_how-conditionals-simplify-infrastructure-activity-7239263254701576192-lwF2?utm_source=share&utm_medium=member_desktop)
+
+
+------------
