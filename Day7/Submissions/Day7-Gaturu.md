@@ -1,7 +1,7 @@
 # Day 7: Understanding Terraform State
 
 ## Participant Details
-- **Name:** Duncan GATURU
+- **Name:** Duncan Gaturu
 - **Task Completed:** : Workspace Layout 
 - **Date and Time:** 2024-09-12 8:16pm
 
