@@ -5,7 +5,7 @@
 - **Task Completed:** Use tools like Terratest to automate these tests and ensure they can be run in a CI/CD pipeline.
 - **Date and Time:** 15/09/2024 01:33 PM
 
-```hcl
+```yaml
 name: Terraform CI
 
 on:
