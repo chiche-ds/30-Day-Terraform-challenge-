@@ -1,4 +1,4 @@
-# Day 7: Understanding Terraform State
+# Day 7: Understanding Terraform State Part 2
 
 ## Participant Details
 - **Name:** Duncan Gaturu
