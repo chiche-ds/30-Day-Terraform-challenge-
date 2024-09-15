@@ -63,7 +63,7 @@ resource "aws_dynamodb_table" "terraform_locks" {
      type = "S"
  }
 }
-
+#Configure a backend for this Instance using the S3 bucket and DynamoDB table
 terraform {
   backend "s3" {
 # Replace this with your bucket name!
