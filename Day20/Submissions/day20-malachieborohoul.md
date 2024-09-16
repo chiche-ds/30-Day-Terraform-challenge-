@@ -1,4 +1,4 @@
-# Day 19: Adopting Infrastructure as Code (IaC) in Your Team
+# Day 20: Workflow for Deploying Application Code
 
 ## Participant Details
 
