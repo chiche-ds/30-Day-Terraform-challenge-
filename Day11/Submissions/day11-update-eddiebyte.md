@@ -10,7 +10,7 @@ reusable and efficient code across various environments.
 ## Terraform Code for WebServer Cluster with Conditionals:
 This code implements the use of the Terraform conditionals `if` `else` `for each` & `count`. As a result, the conditionals make the code flexible, scalable, and cost-efficient, allowing you to control which resources to create or skip based on input variables. 
 This prevents over-provisioning, reduces human errors, and enhances the overall maintainability of your Terraform configurations.
-## Path:  `modules\services\webserver-cluster`
+## Path:  `modules\services\webserver-cluster\main.tf`
 ```hcl
 terraform {
   required_version = ">= 1.0.0, < 2.0.0"
