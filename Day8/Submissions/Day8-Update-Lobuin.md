@@ -1,22 +1,26 @@
+ # Terraform module for a common infrastructure component (e.g., an EC2 instance, a VPC, or a load balancer).
+
+
+
 ```hcl
 /project-root
   │
   ├──  main.tf
   │
   ├──  modules
-  │   ├── vpc
+  │   ├── VPC
   │   │   ├──  variables.tf
   │   │   ├──  outputs.tf
   │   │   └──  main.tf
   │   │
-  │   ├──  ec2
+  │   ├──  EC2
   │   │   ├──  variables.tf
   │   │   ├──  outputs.tf
   │   │   ├──  main.tf
   │   │   ├──  install_nginx.sh
   │   │   └──  do_stuff.sh
   │   │
-  │   └──  sg
+  │   └──  ALB
   │       ├──  variables.tf
   │       ├──  outputs.tf
   │       └──  main.tf
