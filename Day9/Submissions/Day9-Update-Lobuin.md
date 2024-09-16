@@ -1,3 +1,6 @@
+
+```hcl
+
 provider "aws" {
   region = "us-east-2"
 }
@@ -78,3 +81,4 @@ resource "aws_lb_listener_rule" "asg" {
     target_group_arn = aws_lb_target_group.asg.arn
   }
 }
+```
