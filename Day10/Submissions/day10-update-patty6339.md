@@ -4,7 +4,7 @@
 
 - **Name:** Patrick Odhiambo
 - **Task Completed:** Terraform Loops and Conditionals
-- **Date and Time:** 16/9/24 at 8pm
+- **Date and Time:** 16/9/24 at 8:30 pm
 
 ## Terraform Code 
 
