@@ -4,6 +4,8 @@
 - **Task Completed:** : Terraform Conditionals
 - **Date and Time:** 2024-09-19 5:50am
 
+# Terraform code Refactoring to use conditionals for dynamic infrastructure deployment.
+
 
 ```hcl
 variable "cluster_name" {
