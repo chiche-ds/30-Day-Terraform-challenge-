@@ -1,3 +1,16 @@
+## Participant Details
+- **Name:** Ngwa Dieudonne Lobuin
+- **Task Completed:** :  loops and conditionals.
+- **Date and Time:** 2024-09-19 2:36am
+- 
+# Task Completed
+
+Refactor your existing Terraform code to use loops and conditionals.
+Use count to deploy multiple instances of the same resource, and use for_each to iterate over maps or lists of resources.
+Implement conditional logic to deploy resources based on input variables.
+
+
+
 ```hcl
 terraform.tf
 
