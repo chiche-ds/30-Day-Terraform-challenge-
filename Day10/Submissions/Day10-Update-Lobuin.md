@@ -1,4 +1,16 @@
 ```hcl
+variables.tf
+
+variable "server_port" {
+description = "The port the server will use for HTTP requests"
+type = number
+default = 8080
+}
+```
+```hcl
+
+terraform.tf
+
 terraform {
   required_providers {
     aws = {
@@ -10,6 +22,9 @@ terraform {
 ```
 
 ```hcl
+
+main.tf
+
 provider "aws" {
 region = "us-east-1"
 }
