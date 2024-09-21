@@ -70,32 +70,24 @@ resource "aws_autoscaling_group" "example" {
 }
 
 
-# Output when the replacement was going on
+# Output when the replacement was going on as there is an interchange between old and new
 
 <h1>New server text</h1>
-<p>DB address: terraform-up-and-running20240921041224807100000001.cmd1ivcpirkg.us-east-2.rds.amazonaws.com</p>
-<p>DB port: 3306</p>
+
 <h1>New server text</h1>
-<p>DB address: terraform-up-and-running20240921041224807100000001.cmd1ivcpirkg.us-east-2.rds.amazonaws.com</p>
-<p>DB port: 3306</p>
+
 <h1>Hello, Terraform</h1>
-<p>DB address: terraform-up-and-running20240921041224807100000001.cmd1ivcpirkg.us-east-2.rds.amazonaws.com</p>
-<p>DB port: 3306</p>
+
 <h1>Hello, Terraform</h1>
-<p>DB address: terraform-up-and-running20240921041224807100000001.cmd1ivcpirkg.us-east-2.rds.amazonaws.com</p>
-<p>DB port: 3306</p>
+
 <h1>New server text</h1>
-<p>DB address: terraform-up-and-running20240921041224807100000001.cmd1ivcpirkg.us-east-2.rds.amazonaws.com</p>
-<p>DB port: 3306</p>
+
 <h1>Hello, Terraform</h1>
-<p>DB address: terraform-up-and-running20240921041224807100000001.cmd1ivcpirkg.us-east-2.rds.amazonaws.com</p>
-<p>DB port: 3306</p>
+
 <h1>New server text</h1>
-<p>DB address: terraform-up-and-running20240921041224807100000001.cmd1ivcpirkg.us-east-2.rds.amazonaws.com</p>
-<p>DB port: 3306</p>
+
 <h1>Hello, Terraform</h1>
-<p>DB address: terraform-up-and-running20240921041224807100000001.cmd1ivcpirkg.us-east-2.rds.amazonaws.com</p>
-<p>DB port: 3306</p>
+
 ```
 ## Architecture 
 
