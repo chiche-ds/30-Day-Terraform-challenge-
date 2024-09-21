@@ -1,4 +1,13 @@
 ```hcl
+outputs.tf
+
+output "public_ip" {
+  description = "This is the public IP of my web server"
+  value = aws_instance.web_server.public_ip
+}
+```
+
+```hcl
 variables.tf
 
 variable "server_port" {
