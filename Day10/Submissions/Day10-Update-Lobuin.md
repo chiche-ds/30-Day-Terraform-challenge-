@@ -1,4 +1,15 @@
 ```hcl
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "5.63.0"
+    }
+  }
+}
+```
+
+```hcl
 provider "aws" {
 region = "us-east-1"
 }
