@@ -1,0 +1,16 @@
+# Day 25: Deploy a Static Website on AWS S3 with Terraform
+
+## Participant Details
+
+- **Name:** Rajiya Shaik
+- **Task Completed:**
+Created an S3 bucket for hosting the static website.
+Set up a CloudFront distribution to serve content from the S3 bucket over HTTPS.
+Managed your state remotely with S3 and DynamoDB for state locking
+
+
+
+
+## Github Link 
+
+[https://github.com/raziashaik1984/project-Static-website-Hosting](https://github.com/raziashaik1984/project-Static-website-Hosting)
