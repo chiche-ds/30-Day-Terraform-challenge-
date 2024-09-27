@@ -5,6 +5,10 @@
 - **Task Completed:** Deploy a Static Website on AWS S3 with Terraform.
 - **Date and Time:** 27/09/2024 07:48 AM
 
+## GitHub repo link
+https://github.com/Ujusophy/Day25-terraform-challenge
+
+
 ### modules/website/main.tf
 ```hcl
 resource "aws_s3_bucket" "website_bucket" {
