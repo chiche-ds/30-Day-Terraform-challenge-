@@ -5,6 +5,11 @@
 - **Task Completed:** 3-tier multi-region infrastructure using AWS and Terraform. This architecture will ensure high availability and fault tolerance by distributing traffic across multiple AWS regions.
 - **Date and Time:** 27/09/2024 08:30 AM
 
+
+## GitHub repo link
+https://github.com/Ujusophy/Day27-terraform-challenge
+
+
 ### modules/alb
 ##### - main.tf
 ```hcl
