@@ -5,6 +5,10 @@
 - **Task Completed:** deploying a scalable web application using AWS EC2 instances, an Elastic Load Balancer (ELB), and Auto Scaling to dynamically adjust the number of EC2 instances based on traffic.
 - **Date and Time:** 27/09/2024 08:01 AM
 
+## GitHub repo link
+https://github.com/Ujusophy/Day26-terraform-challenge
+
+
 ### modules/ec2/main.tf
 ```hcl
 resource "aws_instance" "web" {
