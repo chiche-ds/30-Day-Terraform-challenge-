@@ -21,7 +21,7 @@ provider "aws" {
 provider "aws" {
   region = "us-west-1"
   alias = "region_2"
-}
+} 
 
 #deploy 2 EC2 Instances in different regions
 resource "aws_instance" "region_1" {
