@@ -1,8 +1,8 @@
-## Day 21: Workflow for Deploying Application Code
+## Day 23: Brushing Up on Terraform Concepts 
 
 - **Name:** Salako Lateef
 - **Date:** 04/10/2026
-- **Task:** Terraform Cloud workflow
+- **Task Completed:** Practiced Terraform Concepts 
 
 ## To practice
 - Automated workflow
