@@ -54,7 +54,7 @@ resource "aws_instance" "web-server" {
               sudo apt install nginx -y
               sudo systemctl start nginx
               sudo systemctl enable nginx
-              echo "<h1>Hello, Mary Jane welcome to Terraform</h1>" | sudo tee /var/www/html/index.html
+              echo "<h1>Hello, Mubarak welcome to Terraform</h1>" | sudo tee /var/www/html/index.html
               EOF
 
   tags = {
