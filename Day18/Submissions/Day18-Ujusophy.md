@@ -1,4 +1,4 @@
-# Day 16: Automated Testing of Terraform Code
+# Day 18: Automated Testing of Terraform Code
 ## Participant Details
 
 - **Name:** Njoku Ujunwa Sophia 
