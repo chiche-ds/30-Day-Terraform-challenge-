@@ -1,4 +1,4 @@
-# Day 2: Setting up Terraform
+# Day 2: Deploying Basic Infrastructure with Terraform
 
 ## Participant Details
 - **Name:** Utibe Okon (yutee)
