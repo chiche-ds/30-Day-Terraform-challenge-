@@ -1,5 +1,5 @@
 ## Day 6 Task : Understanding Terraform State - Part 2
-_Utibe Okon | Sat, October 12 2024 | 8:41 AM - GMT+1_
+_Utibe Okon | Sat, October 12 2024 | 8:35 AM - GMT+1_
 
 __State file isolation:__
 
