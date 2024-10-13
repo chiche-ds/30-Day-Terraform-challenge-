@@ -1,6 +1,8 @@
 # Day 13: Managing Sensitive Data in Terraform
 
-## Participant Details 
+ day24-final-prep
+## Participant Details
+
 
 - **Name:** Ephantus Gachomba
 - **Task Completed:** Understood Terraform Managing Sensitive Data in Terraform
