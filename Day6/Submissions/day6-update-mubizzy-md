@@ -1,0 +1,48 @@
+# Day 6: Understanding Terraform State
+
+## Participant Details
+- **Name:** Ajibola Mubarak
+- **Task Completed:** I have Completed Chapter 3 (Pages 81-113) Sections "What is Terraform State?", "Shared Storage for State Files", and "Managing State Across Teams".
+- I have watched **"Benefits of Terraform State"** (Video 47)
+- I have watched **"Managing Terraform State"** (Video 48)
+- I have watched **"Remote State Storage"** (Video 49)
+- I have watched **"State Locking and Backend Authentication"** (Video 50)  
+- **Date and Time:** 10/13/2024 10:30 AM
+
+```hcl
+terraform {
+  backend "s3" {
+    bucket         = "dexter-s3-bucket" 
+    key            = "terraform/state.tfstate"
+    region         = "us-west-2"
+    encrypt        = true
+  }
+}
+
+# Define the provider
+provider "aws" {
+  region = "us-west-2" # Replace with your preferred region
+}
+
+# Create an S3 bucket
+resource "aws_s3_bucket" "my_bucket" {
+  bucket = "dexter504-s3-bucket" 
+ 
+
+  
+  # Tag the bucket
+  tags = {
+    Name        = "MyS3Bucket"
+    Environment = "Dev"
+  }
+
+
+}
+# Manage versioning as a separate resource
+resource "aws_s3_bucket_versioning" "my_bucket_versioning" {
+  bucket = aws_s3_bucket.my_bucket.bucket
+
+  versioning_configuration {
+    status = "Enabled"
+  }
+}
