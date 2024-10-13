@@ -6,8 +6,12 @@
 - I have watched **"Benefits of Terraform State"** (Video 47)
 - I have watched **"Managing Terraform State"** (Video 48)
 - I have watched **"Remote State Storage"** (Video 49)
-- I have watched **"State Locking and Backend Authentication"** (Video 50)  
-- **Date and Time:** 10/13/2024 10:30 AM
+- I have watched **"State Locking and Backend Authentication"** (Video 50) 
+
+
+### Configured remote state storage using S3 and locke the state using DynamoDB
+#### main.tf
+
 
 ```hcl
 terraform {
