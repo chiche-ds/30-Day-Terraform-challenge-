@@ -9,7 +9,7 @@
 ## Conditional Resource Deployment with count
 Checks if the resource is in dev or production
 it then scales if production according to snippet below.
-
+ 
 
 ```hcl
 resource "aws_autoscaling_schedule" "scale_out_during_business_hours" {
