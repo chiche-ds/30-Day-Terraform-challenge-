@@ -9,3 +9,11 @@
 
 ## Additional Notes
 - [Any additional comments or observations about the task]
+
+## Participant Details
+- **Name:** Utibe Okon
+- **Task Completed:** Introduction to Terraform and IaC
+- **Date and Time:** 11th Oct 2024 23:07 WAT
+
+## Additional Notes
+- Restarting the challenge for a second time and I plan to actually challenge myself to be consistent. The resources are great and this should be fun.
