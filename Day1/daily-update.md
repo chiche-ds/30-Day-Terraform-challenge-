@@ -1,9 +1,11 @@
 # Day 1: Introduction to Terraform and Infrastructure as Code (IaC)
 
 ## Participant Details
-- **Name:** [Ephantus Gachomba]
+
+- **Name:** William Maina
 - **Task Completed:** Introduction to Terraform and IaC
-- **Date and Time:** [17-08-2024 11:01 pm]
+- **Date and Time:** 02nd Oct 2024 7am EAT
+
 
 ## Additional Notes
 - [Any additional comments or observations about the task]

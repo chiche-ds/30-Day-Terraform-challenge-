@@ -9,8 +9,13 @@ Setting version control environment.
 ## Task Details
 
 - **Day:** Day 1
+
 - **Task:** [Installing and configuring terraform on my local machine.]
 - **Branch Name:** [day1-intro-to-terraform]
+
+- **Task:** [Introduction to Terraform and Infrastructure as Code (IaC)]
+- **Branch Name:** [30days]
+
 
 ## Blog Post
 
@@ -28,6 +33,7 @@ If you made a social media post about today’s task, include the link here:
 
 ## Checklist
 
+day1-intro-to-terraform
 - [x ] I have completed the task as described in `DayX/tasks.md`.
 - [x ] I have updated the `daily-update.md` file with my details.
 - [x ] I have written and published a blog post about today's task.
@@ -35,6 +41,7 @@ If you made a social media post about today’s task, include the link here:
 - [x ] I have used the required hashtags in my social media post.
 - [x ] I have followed the repository's contribution guidelines.
 - [x ] My code follows the repository's coding standards and best practices.
+
 
 ## Additional Notes
 
