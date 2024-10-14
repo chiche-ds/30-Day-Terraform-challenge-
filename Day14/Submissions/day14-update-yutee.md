@@ -4,7 +4,7 @@
 
 - **Name:** Utibe Okon (yutee)
 - **Task Completed:** Deployed two ec2 instances to two different regions on aws.
-- **Date and Time:** Mon 14th October, 2024 | 9:23 AM GMT+1
+- **Date and Time:** Mon 14th October, 2024 | 11:45 AM GMT+1
 
 Using different regions can be acheived with aliases. An alias is a custom name for the provider, which you can explicitly pass to individual resources, data sources, and modules to get them to use the configuration in that particular provider. To tell those aws_region data sources to use a specific provider, you set the provider parameter as follows:
 
