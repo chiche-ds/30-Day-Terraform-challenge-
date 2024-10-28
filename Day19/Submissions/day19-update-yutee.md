@@ -2,9 +2,9 @@
 
 ## Participant Details
 
-- **Name:** Salako Lateef
-- **Task Completed:** Adopting Infrastructure as Code (IaC) in Your Team
-- **Date and Time:** 2024-10-03 18:25 PM
+- **Name:** Utibe Okon (yutee)
+- **Task Completed:** Break down the adoption plan into **incremental steps** to make the process smoother.
+- **Date and Time:** Wed 16th October, 2024 | 7:09 AM GMT+1
 
 __Identify Use Cases for IaC__
 Explain how IaC applies across multiple areas, including database provisioning, compute instances, networking, load balancers, and security policies.
@@ -23,3 +23,8 @@ Demonstrate how self-service provisioning can be enabled via pre-defined IaC tem
 
 __Final Presentation and Adoption__
 Emphasize the benefits of IaC—faster deployments, improved governance, reduced downtime—and outline a roadmap for immediate implementation to unlock efficiency gains.
+
+## Terraform Code 
+```hcl
+
+```
