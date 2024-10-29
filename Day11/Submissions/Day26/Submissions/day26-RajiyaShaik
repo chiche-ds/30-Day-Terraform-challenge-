@@ -1,0 +1,25 @@
+# Day 26: Build a Scalable Web Application with Auto Scaling on AWS
+
+## Participant Details
+
+- **Name:**RajiyaShaik
+- **Task Completed:**
+
+Deployed EC2 instances to run your web application.
+
+Used security groups to allow HTTP/HTTPS traffic to your instances.
+
+Set up an ELB to distribute incoming traffic between  EC2 instances.
+
+Created an Auto Scaling group to manage EC2 instances dynamically.
+
+Defined scaling policies based on metrics like CPU utilization or incoming traffic.
+
+Implemented CloudWatch monitoring to track the performance of your EC2 instances and ELB.
+
+
+
+
+## Github Link
+
+[https://github.com/raziashaik1984/Scalable-Web-Application-with-Auto-Scaling-on-AWS](https://github.com/raziashaik1984/Scalable-Web-Application-with-Auto-Scaling-on-AWS)

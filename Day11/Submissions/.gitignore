@@ -1,0 +1,13 @@
+main.tf
+variables.tf
+outputs.tf
+.terraform.lock.hcl
+backend.hcl
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/*
+terraform/*
+
+/Day10/Submissions/day10-update-Adaeze-69.md
+
+playground/*
