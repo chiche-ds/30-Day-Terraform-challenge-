@@ -14,6 +14,6 @@
 - I have updated the daily-update.md file with my details.
 - I have created a pull request with all the required details.
 - here is the link to my article
-![What is IaC](https://dev.to/linsmed/getting-started-with-infrastructure-as-code-iac-using-terraform-9ca)
+[What is IaC](https://dev.to/linsmed/getting-started-with-infrastructure-as-code-iac-using-terraform-9ca)
 - Here is the link to my linkedn post
-![my-linkden post](https://www.linkedin.com/feed/update/urn:li:activity:7269048364493676545/)
+[my-linkden post](https://www.linkedin.com/feed/update/urn:li:activity:7269048364493676545/)
