@@ -12,3 +12,4 @@
 
 - I had a dive into the world of IaC with its impact to DevOps and Tech professionals 
 - Terraform as Cloud Agnostic IaC tool in comparison to others
+- What to consider in selection of IaC tool
