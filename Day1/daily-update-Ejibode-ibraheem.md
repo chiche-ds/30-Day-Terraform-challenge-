@@ -9,3 +9,6 @@
 - I read about terraform today
 - i learnt about the differences between terraform and other IAC tools
 - I published an article on dev.to about IaC
+
+- here is the link to my artcle
+![What is IaC](https://dev.to/linsmed/getting-started-with-infrastructure-as-code-iac-using-terraform-9ca)
