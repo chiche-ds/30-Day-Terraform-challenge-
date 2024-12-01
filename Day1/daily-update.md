@@ -5,12 +5,12 @@
 - **Name:** Yusuf Abdulganiyu
 
 - **Task Completed:** Introduction to Terraform and IaC
-- **Date and Time:** [ 1st December 2024 2pm WAT ]
+- **Date and Time:** [ 1st December 2024 4pm WAT ]
 
 
 ## Additional Notes
 
-- I had a dive into the world of IaC with its impact to Cloud Engineering 
+- I had a dive into the world of IaC with its impact to DevOps and Tech professionals 
 - Terraform as Cloud Agnostic IaC tool in comparison to others
 
 
