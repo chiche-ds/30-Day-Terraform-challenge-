@@ -1,4 +1,4 @@
-# Day 2: Setting Up Terraform
+# Day 1: Setting Up Terraform
 
 ## Task Description
 
