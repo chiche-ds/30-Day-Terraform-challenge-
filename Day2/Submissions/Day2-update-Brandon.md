@@ -26,6 +26,6 @@ resource "aws_instance" "Ec2instance" {
 }
 ```
 Single Server Architecture
-![alttext](Single Server.drawio.png)
+![Single Server Architecture](SingleServer.drawio.png)
 
 
