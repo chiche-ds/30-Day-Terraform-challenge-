@@ -2,7 +2,7 @@
 
 ## Participant Details
 - **Name:** Kojo Ayew Laryea
-- **Task Completed: Introduction to Terraform and IaC
+- **Task Completed:** Introduction to Terraform and IaC
 - **Date and Time:** 02-12-2024 23:15
 
 ## Additional Notes
