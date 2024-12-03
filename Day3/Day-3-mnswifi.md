@@ -9,9 +9,8 @@
     - "Resource Block" (Video 19)
     - Reading: Chapter 2 of "Terraform: Up & Running" by Yevgeniy (Jim) Brikman, focusing on "Deploying a Single Server" and "Deploying a Web Server", to understand what a provider block and a resource block are, and learn how to design and deploy a web server on AWS, GCP, or Azure.
 
-    ![alt text](demo.png)
     
-- **Date and Time:** [02/12/2024 23:20 GMT +1]
+- **Date and Time:** [03/12/2024 23:20 GMT +1]
 
 #################### code block #######################
 
