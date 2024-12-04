@@ -61,10 +61,10 @@ resource "aws_instance" "web_server" {
 
 Here is the architecture of the infrastructure deployed using Terraform:
 
-![Infrastructure Diagram](images/infra.png)
+![Infrastructure Diagram](Day3/images/infra.png)
 
 ## Web Server Verification
 
 The deployed web server responds with "Hello, World" as shown below:
 
-![Web Server Response](images/webserver.png)
+![Web Server Response](Day3/images/webserver.png)
