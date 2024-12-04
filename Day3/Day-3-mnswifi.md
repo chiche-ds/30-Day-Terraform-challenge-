@@ -1,4 +1,4 @@
-# Day 2: Setting up terraform 
+# Day 3: Setting up terraform 
 
 ## Participant Details
 - **Name:** Yusuf Abdulganiyu
