@@ -59,14 +59,14 @@ Welcome to Day 3 of the Terraform 30-Day Challenge! Today, we're diving into dep
 
 ## Checklist
 
-- [ ] I have read Chapter 2 of "Terraform: Up & Running".
-- [ ] I have watched the required Udemy videos.
-- [ ] I have deployed a basic web server using Terraform.
-- [ ] I have created an architecture diagram for my server.
-- [ ] I have written and published a blog post about today's task.
-- [ ] I have made a social media post about today's task.
-- [ ] I have created a `day3-update-your-github-username.md` file with my Terraform code.
-- [ ] I have created a pull request with all the required details.
+- [X] I have read Chapter 2 of "Terraform: Up & Running".
+- [X] I have watched the required Udemy videos.
+- [X] I have deployed a basic web server using Terraform.
+- [X] I have created an architecture diagram for my server.
+- [X] I have written and published a blog post about today's task.
+- [X] I have made a social media post about today's task.
+- [X] I have created a `day3-update-your-github-username.md` file with my Terraform code.
+- [X] I have created a pull request with all the required details.
 
 ## Additional Resources
 
