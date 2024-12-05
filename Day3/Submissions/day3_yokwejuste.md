@@ -125,4 +125,4 @@ output "webserver_ip" {
 
 ## Blog Post
 
--   [Day 3: Deploying Basic Infrastructure with Terraform](https://dev.to/yokwejuste/day-3-deploying-basic-infrastructure-with-terraform-1j8o)
+-   [Day 3: Deploying Basic Infrastructure with Terraform](https://dev.to/yokwejuste/day-03-deploying-basic-infrastructure-with-terraform-1acm)
