@@ -1,4 +1,4 @@
-# Day 4: Mastering Basic Infrastructure with Terraform
+# Day 5: Scaling Infrastructure
 
 ## Participant Details
 - **Name:** Yusuf Abdulganiyu
