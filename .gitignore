@@ -11,3 +11,7 @@ terraform/*
 /Day10/Submissions/day10-update-Adaeze-69.md
 
 playground/*
+.DS_Store
+.history/
+.idea/
+
