@@ -1,12 +1,5 @@
-#   Chibuzo Nwobia Day-2 
-#  09:55 am 
-#  20th August 2024
+#   Isaac Bio Day-2 
+#  00:32 am 
+#  5th December 2024
 ## Tasks
-    Read Terraform up and running 
-    created an aws account 
-    installed wsl2 (windows subsystem for linux v2)
-    installed aws cli for linux
-    installed terraform 
-    configured vscode plugin 
-    wrote a blog post provisioning setup
-
+I have read the book, published a blog on Medium and made social media post
