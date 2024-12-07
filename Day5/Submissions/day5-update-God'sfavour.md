@@ -184,5 +184,27 @@ output "alb_dns_name" {
   description = "The domain name of the load balancer"
 }
 
+variable "region" {
+  default = "us-east-1"
+}
+
+variable "cidr_blocks" {
+  default = "0.0.0.0/0"
+}
+
+variable "ami_id" {
+  description = "The AMI ID to use for the launch configuration."
+  default = "ami-0453ec754f44f9a4a"
+}
+
+variable "server_port" {
+  description = "The port for the web server."
+  default     = 80
+}
+
+variable "key_name" {
+  description = "The name of the EC2 key pair to use for SSH access."
+  default     = null
+}
 
 ```
