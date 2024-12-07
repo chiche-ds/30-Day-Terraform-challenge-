@@ -1,0 +1,27 @@
+Day 3: Deploying Basic Infrastructure with Terraform
+Participant Details
+Name: Jeff Mbita
+Task Completed: Read chapter 2 of the book provided and focused on "Deploying a Single Server" and "Deploying a Web Server.",Provisioned AWS EC2 server and setup a basic web server using Terraform.
+Date and Time: 20/08/2024 16:00 PM
+Terraform Code Update
+Overview
+This document provides details on the Terraform configuration used to deploy an EC2 instance with a basic web server setup on AWS. The configuration includes provisioning an EC2 instance and setting up a security group to allow HTTP and SSH access.
+
+Changes Made
+Resources
+AWS EC2 Instance
+
+Description: Creates an EC2 instance running an Nginx web server.
+AMI: ami-04a81a99f5ec58529 (Specify the AMI ID for the instance)
+Instance Type: t2.micro
+Key Name: Mbita
+Availability Zone: us-east-1a
+Security Group: Attached to aws_security_group.web-server-sg
+User Data: Script to install and start Nginx.
+AWS Security Group
+
+Description: Defines security rules to allow HTTP and SSH traffic.
+Inbound Rules:
+Port 22 (SSH) from 0.0.0.0/0
+Port 80 (HTTP) from 0.0.0.0/0
+Outbound Rules: Allow all outbound traffic.
