@@ -1,5 +1,5 @@
 # DAY2 :Setting Up Terraform 
-## PArticicpant Details
+## Participant's Details
 * Name : James Omego
 * Completion Date: 6th/12/2024
 * Completion time: 1100HRS
