@@ -54,12 +54,12 @@ Welcome to Day 5 of the Terraform 30-Day Challenge! Today, we will focus on scal
 
 ## Checklist
 
-- [ ] I have read Chapter 2 and started Chapter 3 of "Terraform: Up & Running".
-- [ ] I have watched the required Udemy videos.
-- [ ] I have scaled my infrastructure using Terraform.
+- [x] I have read Chapter 2 and started Chapter 3 of "Terraform: Up & Running".
+- [x] I have watched the required Udemy videos.
+- [x] I have scaled my infrastructure using Terraform.
 - [ ] I have written and published a blog post about today's task.
-- [ ] I have made a social media post about today's task.
-- [ ] I have created a `day5-update-your-github-username.md` file with my Terraform code and architecture diagrams.
+- [x] I have made a social media post about today's task.
+- [x] I have created a `day5-update-your-github-username.md` file with my Terraform code and architecture diagrams.
 - [ ] I have created a pull request with all the required details.
 
 ## Additional Resources
