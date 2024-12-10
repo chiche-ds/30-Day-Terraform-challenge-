@@ -1,5 +1,7 @@
 # Day 7: Understanding Terraform State - Part 2
-
+### Name: God'sfavour Braimah
+### Date: 12/10/24
+### Time: 4:46pm
 ## Overview
 Day 7 of the Terraform 30-Day Challenge focused on **state isolation** using **Workspaces**. Terraform Workspaces allow you to manage multiple isolated states in a single configuration directory, ideal for managing environments such as `dev`, `prod`, and `stage`.
 
