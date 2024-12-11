@@ -15,6 +15,12 @@ variable "instance_count" {
   default = 1
 }
 
+variable "create_instance" {
+  description = "Flag to determine whether to create the instance"
+  type        = bool
+  default     = true 
+}
+
 variable "subnet_id" {
   description = "List of subnet IDs to distribute instances"
   type = list(string)
@@ -32,7 +38,8 @@ variable "inbound_ports" {
 ### main.tf example code
 ```
 resource "aws_instance" "app" {
-  count = var.instance_count  # Number of instances to create
+  # Conditionally create instances based on create_instance flag, using instance_count for the number of instances
+  count = var.create_instance ? var.instance_count : 0
 
   instance_type          = var.instance_type
   iam_instance_profile = var.instance_profile.id
