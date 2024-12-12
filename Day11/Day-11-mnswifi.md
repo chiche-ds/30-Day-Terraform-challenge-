@@ -24,6 +24,6 @@
   - Social Media Post:
                 - https://www.linkedin.com/posts/yusuf-abdulganiyu_mastering-loops-and-conditionals-in-terraform-activity-7272732528677912576-uTZW?utm_source=share&utm_medium=member_desktop
   
-- **Date and Time:** 11-10-24 and 23:18 GMT +1
+- **Date and Time:** 11-12-24 and 23:18 GMT +1
 
 
