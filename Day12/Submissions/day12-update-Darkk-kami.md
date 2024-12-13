@@ -4,7 +4,7 @@
 
 - **Name:** Dwayne Chima
 - **Task Completed:** Use Terraform to deploy infrastructure updates with zero downtime using techniques like blue/green deployments.
-- **Date and Time:** 
+- **Date and Time:** 13th Dec 2024 2:00pm
 
 ## Terraform Code 
 ### **rolling update**
