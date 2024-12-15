@@ -17,8 +17,8 @@
               Focus on how modules can be adapted to work with multiple providers.
 
   Activity
-	- Secure Secrets Management: Implement secure management of sensitive data such as passwords, API keys, and tokens using AWS Secrets Manager.
- -  Please ensure that sensitive information is encrypted and properly masked in state files.
+	- Multi-Provider Modules: Create Terraform modules that can work with multiple providers. For example, create a module that deploys infrastructure on both AWS and GCP.
+Docker and Kubernetes: Deploy Docker containers in AWS using Elastic Kubernetes Service (EKS) managed by Terraform.
   
   Blog Post
       - https://medium.com/@abdulganiyu/multi-region-serverless-architecture-deploying-an-api-gateway-with-dynamodb-6df7c6580208
