@@ -1,0 +1,427 @@
+# main.tf
+# Fetch Availability Zones
+data "aws_availability_zones" "available" {
+  state = "available"
+}
+
+# Create the VPC
+resource "aws_vpc" "main_vpc" {
+  cidr_block = var.vpc_cidr
+  tags = {
+    Name = "RR-VPC"
+  }
+}
+
+# Create Public Subnets
+resource "aws_subnet" "public" {
+  count                   = 3
+  cidr_block              = cidrsubnet(var.vpc_cidr, 8, count.index + 1)    # 16 -> 24
+  availability_zone       = data.aws_availability_zones.available.names[count.index]
+  vpc_id                  = aws_vpc.main_vpc.id
+  map_public_ip_on_launch = true
+  tags = {
+    Name = "Public Subnet ${count.index + 1}"
+  }
+}
+
+# Create Private Subnets
+resource "aws_subnet" "private" {
+  count                   = 3
+  cidr_block              = cidrsubnet(var.vpc_cidr, 8, count.index + 4) # 16 -> 24
+
+  availability_zone       = data.aws_availability_zones.available.names[count.index]
+  vpc_id                  = aws_vpc.main_vpc.id
+  tags = {
+    Name = "Private Subnet ${count.index + 1}"
+  }
+}
+
+# Create Internet Gateway
+resource "aws_internet_gateway" "rr_igw" {
+  vpc_id = aws_vpc.main_vpc.id
+  tags = {
+    Name = "RR-IGW"
+  }
+}
+
+# Create Public Route Table
+resource "aws_route_table" "public" {
+  vpc_id = aws_vpc.main_vpc.id
+  tags = {
+    Name = "Public Route Table"
+  }
+}
+
+# Add Route for Public Traffic
+resource "aws_route" "public_route" {
+  route_table_id         = aws_route_table.public.id
+  destination_cidr_block = "0.0.0.0/0"
+  gateway_id             = aws_internet_gateway.rr_igw.id
+}
+
+# Associate Public Subnets with Public Route Table
+resource "aws_route_table_association" "public" {
+  count          = length(aws_subnet.public)
+  subnet_id      = aws_subnet.public[count.index].id
+  route_table_id = aws_route_table.public.id
+}
+
+# Create NAT Gateway
+resource "aws_eip" "nat" {
+  tags = {
+    Name = "NAT EIP"
+  }
+}
+
+resource "aws_nat_gateway" "nat" {
+  allocation_id = aws_eip.nat.id
+  subnet_id     = aws_subnet.public[0].id
+  tags = {
+    Name = "NAT Gateway"
+  }
+}
+
+# Create Private Route Tables
+resource "aws_route_table" "private" {
+  count  = length(aws_subnet.private)
+  vpc_id = aws_vpc.main_vpc.id
+  tags = {
+    Name = "Private Route Table ${count.index + 1}"
+  }
+}
+
+# Add NAT Route for Private Subnets
+resource "aws_route" "private_route" {
+  count                = length(aws_route_table.private)
+  route_table_id       = aws_route_table.private[count.index].id
+  destination_cidr_block = "0.0.0.0/0"
+  nat_gateway_id       = aws_nat_gateway.nat.id
+}
+
+# Associate Private Subnets with Private Route Tables
+resource "aws_route_table_association" "private" {
+  count          = length(aws_subnet.private)
+  subnet_id      = aws_subnet.private[count.index].id
+  route_table_id = aws_route_table.private[count.index].id
+}
+
+# Security Groups
+resource "aws_security_group" "alb_sg" {
+  name        = "alb-security-group"
+  description = "Security group for the Load Balancer"
+  vpc_id      = aws_vpc.main_vpc.id
+
+  ingress {
+    from_port   = 80
+    to_port     = 80
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  tags = {
+    Name = "ALB Security Group"
+  }
+}
+
+resource "aws_security_group" "web_sg" {
+  name        = "web-security-group"
+  description = "Security group for the Web Server"
+  vpc_id      = aws_vpc.main_vpc.id
+
+  ingress {
+    from_port       = 80
+    to_port         = 80
+    protocol        = "tcp"
+    security_groups = [aws_security_group.alb_sg.id]
+  }
+
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  tags = {
+    Name = "Web Security Group"
+  }
+}
+
+# Load Balancer
+resource "aws_lb" "app_lb" {
+  name               = "app-load-balancer"
+  internal           = false
+  load_balancer_type = "application"
+  security_groups    = [aws_security_group.alb_sg.id]
+  subnets            = aws_subnet.public[*].id
+
+  tags = {
+    Name = "Application Load Balancer"
+  }
+}
+
+resource "aws_lb_target_group" "web_tg" {
+  name     = "web-target-group"
+  port     = 80
+  protocol = "HTTP"
+  vpc_id   = aws_vpc.main_vpc.id
+
+  health_check {
+    path                = "/"
+    protocol            = "HTTP"
+    interval            = 30
+    timeout             = 5
+    healthy_threshold   = 2
+    unhealthy_threshold = 2
+  }
+
+  tags = {
+    Name = "Web Target Group"
+  }
+}
+
+resource "aws_lb_listener" "http" {
+  load_balancer_arn = aws_lb.app_lb.arn
+  port              = 80
+  protocol          = "HTTP"
+
+  default_action {
+    type             = "forward"
+    target_group_arn = aws_lb_target_group.web_tg.arn
+  }
+}
+
+
+# TLS Provider Configuration
+provider "tls" {}
+
+# Generate a new SSH key pair (private and public keys)
+resource "tls_private_key" "example" {
+  algorithm = "RSA"
+  rsa_bits  = 2048
+}
+
+# Create the key pair in AWS using the public key generated by TLS
+resource "aws_key_pair" "generated_key_pair" {
+  key_name   = var.key_name  # The name of the key pair to be created
+  public_key = tls_private_key.example.public_key_openssh  # Use the correct public key attribute from TLS resource
+
+  tags = {
+    Name = "GeneratedKeyPair"
+  }
+}
+
+
+# Launch Template
+resource "aws_launch_template" "web_launch_template" {
+  name_prefix   = "web-launch-template-"
+  image_id      = "ami-0453ec754f44f9a4a"  # Amazon Linux 2
+  instance_type = var.instance_type
+  key_name      = var.key_name
+
+  user_data = base64encode(<<-EOF
+    #!/bin/bash
+    sudo yum update -y
+    sudo yum install -y httpd
+    echo "<html><body><h1>Welcome to Auto Scaling Clustered Web Server</h1></body></html>" > /var/www/html/index.html
+    sudo systemctl start httpd
+    sudo systemctl enable httpd
+    EOF
+  )
+
+  tags = {
+    Name = "Web Server Instance"
+  }
+}
+
+
+
+# Auto Scaling Group
+resource "aws_autoscaling_group" "web_asg" {
+  launch_template {
+    id      = aws_launch_template.web_launch_template.id
+    version = "$Latest"
+  }
+
+  min_size            = var.min_size
+  max_size            = var.max_size
+  desired_capacity    = var.desired_capacity
+  vpc_zone_identifier = aws_subnet.private[*].id
+
+  target_group_arns = [aws_lb_target_group.web_tg.arn] # Attach target group here
+
+  // Updated tagging format
+  tag {
+    key                 = "Name"
+    value               = "Web Server Instance"
+    propagate_at_launch = true
+  }
+}
+
+
+resource "aws_security_group" "ec2_sg" {
+  name        = "ec2-security-group"
+  description = "Security group for EC2 instances"
+  vpc_id      = aws_vpc.main_vpc.id
+
+  # Allow traffic from the Load Balancer's security group
+  ingress {
+    from_port   = 80
+    to_port     = 80
+    protocol    = "tcp"
+    security_groups = [aws_security_group.alb_sg.id] # Reference ALB SG
+  }
+
+  # Allow SSH access (optional, for management purposes)
+  ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"] # Restrict this to your IP for better security
+  }
+
+  # Allow all outbound traffic
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  tags = {
+    Name = "EC2 Security Group"
+  }
+}
+
+# variable.tf
+# AWS Region
+variable "aws_region" {
+  description = "The AWS region where resources will be deployed"
+  type        = string
+  default     = "us-east-1"
+}
+
+# VPC CIDR
+variable "vpc_cidr" {
+  description = "The CIDR block for the VPC"
+  type        = string
+  default     = "10.0.0.0/16"
+}
+
+# Public Subnet CIDR Block Prefix
+variable "public_subnet_cidr_prefix" {
+  description = "CIDR block prefix for public subnets"
+  type        = number
+  default     = 24
+}
+
+# Private Subnet CIDR Block Prefix
+variable "private_subnet_cidr_prefix" {
+  description = "CIDR block prefix for private subnets"
+  type        = number
+  default     = 24
+}
+
+# Key Pair Name
+variable "key_name" {
+  description = "Key pair name for SSH access"
+  type        = string
+  default     = "my-key-pair"
+}
+
+# Instance Type
+variable "instance_type" {
+  description = "Instance type for Auto Scaling group"
+  type        = string
+  default     = "t2.micro"
+}
+
+# Auto Scaling Configuration
+variable "min_size" {
+  description = "Minimum number of instances in the Auto Scaling group"
+  type        = number
+  default     = 1
+}
+
+variable "max_size" {
+  description = "Maximum number of instances in the Auto Scaling group"
+  type        = number
+  default     = 3
+}
+
+variable "desired_capacity" {
+  description = "Desired number of instances in the Auto Scaling group"
+  type        = number
+  default     = 2
+}
+
+# output.tf
+# Output VPC ID
+output "vpc_id" {
+  description = "The ID of the VPC"
+  value       = aws_vpc.main_vpc.id
+}
+
+# Public Subnet IDs
+output "public_subnet_ids" {
+  description = "List of public subnet IDs"
+  value       = aws_subnet.public[*].id
+}
+
+# Private Subnet IDs
+output "private_subnet_ids" {
+  description = "List of private subnet IDs"
+  value       = aws_subnet.private[*].id
+}
+
+# Internet Gateway ID
+output "internet_gateway_id" {
+  description = "ID of the Internet Gateway"
+  value       = aws_internet_gateway.rr_igw.id
+}
+
+# Load Balancer DNS Name
+output "load_balancer_dns_name" {
+  description = "DNS name of the Application Load Balancer"
+  value       = aws_lb.app_lb.dns_name
+}
+
+output "aws_region" {
+  description = "AWS region used"
+  value       = var.aws_region
+}
+
+# Output the private key (note that it is sensitive, so be cautious)
+output "private_key" {
+  value     = tls_private_key.example.private_key_pem
+  sensitive = true # Mark it as sensitive to prevent exposure
+}
+
+# Output the public key
+output "public_key" {
+  value = tls_private_key.example.public_key_openssh
+}
+
+# provider.tf
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0" # Adjust to the latest version you're using
+    }
+  }
+
+  required_version = ">= 1.5.0"
+}
+
+provider "aws" {
+  region = var.aws_region
+}
+
