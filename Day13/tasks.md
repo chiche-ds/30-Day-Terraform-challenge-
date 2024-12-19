@@ -13,5 +13,5 @@
    - "How to Handle Sensitive Data Securely in Terraform"
    - "Best Practices for Secure Secrets Management in Terraform"
 7. **Social Media Post**: 
-   - "🔐 Configured secure management of sensitive data in Terraform today! #DevOps #Terraform #Security"
+   - "Configured secure management of sensitive data in Terraform today! #DevOps #Terraform #Security"
 
