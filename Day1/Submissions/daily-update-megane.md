@@ -13,3 +13,6 @@
 ## link for social media post
 
 https://www.linkedin.com/in/tchinda-megane-2b14b7271/recent-activity/all/
+
+## link for block post
+https://medium.com/@tchindatchoffomeganeaudrey/my-journey-in-the-30dayterrafomchallenge-7597eff86a39
