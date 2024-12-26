@@ -1,5 +1,8 @@
 # Day 2: Setting Up Terraform
 
+## Participant Details
+- **Name:** Tchinda Megane
+  
 ## Overview
 
 Welcome to Day 2 of the Terraform 30-Day Challenge! Today, we’ll focus on setting up Terraform, configuring your AWS environment, and installing essential tools. These steps are crucial as they set the foundation for deploying and managing infrastructure as code.
@@ -25,19 +28,18 @@ Welcome to Day 2 of the Terraform 30-Day Challenge! Today, we’ll focus on sett
    - **Install AWS CLI**: Download and install the AWS Command Line Interface (CLI) to interact with your AWS environment from the terminal.
    - **Install VS Code**: If you haven't already, install Visual Studio Code (VS Code), a powerful code editor.
    - **Configure AWS Plugin in VS Code**: Install the AWS Toolkit plugin for VS Code to manage your AWS resources directly from the editor.
-   - **Bonus Activity**: For all tasks in the book, use [draw.io](https://app.diagrams.net/) to create diagrams of the infrastructure. Visualizing your infrastructure helps reinforce your understanding.
+   
 
 ### 4. **Blog Post**
    - **Title**: "Step-by-Step Guide to Setting Up Terraform, AWS CLI, and VS Code"
    - **Goal**: Write a detailed guide on how to set up Terraform, AWS CLI, and VS Code. Share any tips or challenges you encountered and how you resolved them.
-
+    - **link**: https://medium.com/@tchindatchoffomeganeaudrey/my-journey-in-the-30dayterrafomchallenge-609484f354ea
+     
 ### 5. **Social Media Post**
    - **Text**: "💻 Just installed Terraform, AWS CLI, and configured VS Code. Ready to deploy some infrastructure! #30daytfchallenge #HUG #hashicorp #HUGYDE @Chi Che. #IaC #terraform
 "
    - **Goal**: Engage with the community by sharing your progress on social media.
-
-### 6. **Bonus Activity**
-   - **Create Infrastructure Diagrams**: Use [draw.io](https://app.diagrams.net/) to create diagrams of the infrastructure setups you’ll be working on. This will help you better understand the architecture and visualize your deployments.
+    - **link**:https://www.linkedin.com/in/tchinda-megane-2b14b7271/recent-activity/all/
 
 ## How to Submit Your Work
 
@@ -61,19 +63,19 @@ Welcome to Day 2 of the Terraform 30-Day Challenge! Today, we’ll focus on sett
 
 ## Checklist
 
-- [X] I have read the relevant sections of Chapter 2 in "Terraform: Up & Running".
-- [X] I have watched the required Udemy videos.
-- [X] I have set up my AWS account.
-- [X] I have installed Terraform on my local machine.
-- [X] I have installed the AWS CLI.
-- [X] I have installed and configured VS Code with the AWS Toolkit plugin.
-- [X] I have completed the labs in videos 7 and 8.
-- [X] I have created infrastructure diagrams using draw.io.
-- [X] I have documented my setup process on GitHub.
-- [X] I have written and published a blog post about today's tasks.
-- [X] I have made a social media post about today's tasks.
-- [X] I have updated the `daily-update.md` file with my details.
-- [X] I have created a pull request with all the required details.
+- [] I have read the relevant sections of Chapter 2 in "Terraform: Up & Running".
+- [] I have watched the required Udemy videos.
+- [] I have set up my AWS account.
+- [] I have installed Terraform on my local machine.
+- [] I have installed the AWS CLI.
+- [] I have installed and configured VS Code with the AWS Toolkit plugin.
+- [] I have completed the labs in videos 7 and 8.
+- [] I have created infrastructure diagrams using draw.io.
+- [] I have documented my setup process on GitHub.
+- [] I have written and published a blog post about today's tasks.
+- [] I have made a social media post about today's tasks.
+- [] I have updated the `daily-update.md` file with my details.
+- [] I have created a pull request with all the required details.
 
 ## Additional Resources
 
