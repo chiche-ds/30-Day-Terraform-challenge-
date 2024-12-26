@@ -2,8 +2,10 @@
 
 ## Participant Details
 **Name:** Olalekan Usman
+
 **Task Completed:** Introduction to Terraform and IaC
-**Date and Time:** 27 December, 2024. 12:43 AM WAT
+
+**Date and Time:** 27 December, 2024. 12:38 AM WAT
 
 ## Additional Notes
 - I have read Chapter 1 of "Terraform: Up & Running".
