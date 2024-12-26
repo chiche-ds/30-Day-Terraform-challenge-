@@ -4,7 +4,6 @@
 - **Name:** Tchinda Megane
   
 ## Overview
-
 Welcome to Day 2 of the Terraform 30-Day Challenge! Today, we’ll focus on setting up Terraform, configuring your AWS environment, and installing essential tools. These steps are crucial as they set the foundation for deploying and managing infrastructure as code.
 
 ## Tasks for Today
