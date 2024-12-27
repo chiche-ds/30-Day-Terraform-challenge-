@@ -69,6 +69,13 @@ https://github.com/Darkk-kami/terraform-3tier-infra
 
 ![vpc_peering](https://github.com/user-attachments/assets/e58ff7e3-1931-4993-89d8-36c709c31aca)
 
+- Configured Appropriate Route Tables for both VPC to be able to communinicate with each other
+- EC2 instances are able to reach both Primary and Read Replica RDS instances for cases of failover, despite being in different regions and private subnets
+
+![connectivity](https://github.com/user-attachments/assets/bc8108cf-fae4-429e-ba1a-071e2a1618ba)
+
+
+
 
 ## Deployment Process
 ### **Infrastructure Setup**
