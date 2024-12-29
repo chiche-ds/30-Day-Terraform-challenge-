@@ -37,7 +37,7 @@ The structured approach to revisiting exam objectives and focusing on practical 
 🚀 This journey has been more than just preparation for an exam; it's about building a strong foundation for solving real-world infrastructure challenges with Terraform.  
 
 #### **Date and Time**  
-- December 28, 2024, 22:30 🕙 GMT+1  
+- December 29, 2024, 22:30 🕙 GMT+1  
 
 #### **Additional Notes**  
 - Focused on exam-specific objectives without introducing unrelated topics.  
