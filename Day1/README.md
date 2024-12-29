@@ -30,8 +30,8 @@ Welcome to Day 1 of the Terraform 30-Day Challenge! Today, we’ll be focusing o
 
 ## How to Submit Your Work
 
-### 1. **Update the `daily-update.md` File**
-   - Open the `Day1/daily-update.md` file.
+### 1. **create the `day1-yourname.md` File**
+   - Open the `Day1/day1-yourname.md` file.
    - Add your name, the task you completed, and the date and time of completion.
    
 ### 2. **Commit Your Changes**
