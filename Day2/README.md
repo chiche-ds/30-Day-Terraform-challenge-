@@ -61,19 +61,19 @@ Welcome to Day 2 of the Terraform 30-Day Challenge! Today, we’ll focus on sett
 
 ## Checklist
 
-- [ ] I have read the relevant sections of Chapter 2 in "Terraform: Up & Running".
-- [ ] I have watched the required Udemy videos.
-- [ ] I have set up my AWS account.
-- [ ] I have installed Terraform on my local machine.
-- [ ] I have installed the AWS CLI.
-- [ ] I have installed and configured VS Code with the AWS Toolkit plugin.
-- [ ] I have completed the labs in videos 7 and 8.
-- [ ] I have created infrastructure diagrams using draw.io.
-- [ ] I have documented my setup process on GitHub.
-- [ ] I have written and published a blog post about today's tasks.
-- [ ] I have made a social media post about today's tasks.
-- [ ] I have updated the `daily-update.md` file with my details.
-- [ ] I have created a pull request with all the required details.
+- [X] I have read the relevant sections of Chapter 2 in "Terraform: Up & Running".
+- [X] I have watched the required Udemy videos.
+- [X] I have set up my AWS account.
+- [X] I have installed Terraform on my local machine.
+- [X] I have installed the AWS CLI.
+- [X] I have installed and configured VS Code with the AWS Toolkit plugin.
+- [X] I have completed the labs in videos 7 and 8.
+- [X] I have created infrastructure diagrams using draw.io.
+- [X] I have documented my setup process on GitHub.
+- [X] I have written and published a blog post about today's tasks.
+- [X] I have made a social media post about today's tasks.
+- [X] I have updated the `daily-update.md` file with my details.
+- [X] I have created a pull request with all the required details.
 
 ## Additional Resources
 
