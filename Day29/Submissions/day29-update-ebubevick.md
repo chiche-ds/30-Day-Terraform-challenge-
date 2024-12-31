@@ -9,6 +9,6 @@
 
 ### Past Questions Done
 
-![practice exam 3](./img/practise%20exam3%20result.jpeg)
+![practice exam 03](./img/practise%20exam3%20result.jpeg)
 
-![practice exam 4](./img/practise%20exam4%20result.jpeg)
+![practice exam 04](./img/practise%20exam4%20result.jpeg)
