@@ -1,4 +1,4 @@
-### **# Day 30: Exam Preparation - Final Practice Exam & Fill-in-the-Blank Questions**
+## ** Day 30: Exam Preparation - Final Practice Exam & Fill-in-the-Blank Questions**
 
 #### **Participant Details**  
 - **Name:** Yusuf Abdulganiyu  
