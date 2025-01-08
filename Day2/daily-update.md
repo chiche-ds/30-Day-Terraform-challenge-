@@ -1,6 +1,6 @@
-# Day 1: Setting up of terraform 
+# Day 2: Setting up of terraform 
 
-## Participant Deatails
-- **Name:** Kojo Ayew Laryea
-- **Task Completed:** Setting up of Terraform
-- **Date and Time:** 05/12/2024
+## Participant Details
+- **Name:** Jully Achenchi
+- **Task Completed:** Setting up of Terraform and AWS
+- **Date and Time:** 10/12/2024
