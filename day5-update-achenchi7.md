@@ -4,7 +4,7 @@
 **Task Completed**: Mastering Basic Infrastructure with Terraform
 **Date**: 11/12/2024
 
-## Scale your web server cluster using Terraform to handle increased load
+## Scale your web server cluster using Terraform to handle increased the load
 
 ### main.tf
 ```hcl 
