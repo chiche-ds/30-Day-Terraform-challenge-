@@ -1,3 +1,4 @@
+ days/day26/ijiolaAbiodun
 resource "aws_autoscaling_schedule" "scale_out_during_business_hours" {
   count = var.enable_autoscaling ? 1 : 0
 
@@ -32,3 +33,7 @@ variable "enable_autoscaling" {
   min_size = 2
   max_size = 10
 }
+
+https://github.com/Stormz99/aws-scaling-and-monitoring-terraform.git
+
+
