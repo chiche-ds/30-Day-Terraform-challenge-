@@ -1,0 +1,26 @@
+# Day 2: Setting up terraform 
+
+## Participant Details
+- **Name:** Tchinda Megane
+
+- **Task Completed:
+    ** Video 7: "Setting Up AWS"
+    ** Video 8: "Installing Terraform"
+    ** Video 9: " Configuring Terraform"
+    ** Video 10: "Your First Terraform Script"
+    ** red: "Setting Up Your AWS Account", "Installing Terraform", and "Configuring VS Code"
+ 
+**Checklist
+ xI have read the relevant sections of Chapter 2 in "Terraform: Up & Running".
+ xI have watched the required Udemy videos.
+ xI have set up my AWS account.
+ xI have installed Terraform on my local machine.
+ xI have installed the AWS CLI.
+ xI have installed and configured VS Code with the AWS Toolkit plugin.
+ xI have completed the labs in videos 7 and 8.
+ xI have created infrastructure diagrams using draw.io.
+ xI have documented my setup process on GitHub.
+ xI have written and published a blog post about today's tasks.
+ xI have made a social media post about today's tasks.
+ xI have updated the daily-update.md file with my details.
+ xI have created a pull request with all the required details.
