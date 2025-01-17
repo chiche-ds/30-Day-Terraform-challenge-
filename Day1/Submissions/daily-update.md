@@ -1,30 +1,18 @@
 # Day 1: Introduction to Terraform and Infrastructure as Code (IaC)
 
 ## Participant Details
+**Name:** Olalekan Usman
 
-- **Name:** Akintola Abdulazeez
+**Task Completed:** Introduction to Terraform and IaC
 
-
-- **Name:** William Maina
-
-- **Task Completed:** Introduction to Terraform and IaC
-- **Date and Time:** 05nd Oct 2024 11pm WAT
-
+**Date and Time:** 27 December, 2024. 12:38 AM WAT
 
 ## Additional Notes
-
-- I learnt about the Rise of DevOps 
-- The importance of IAC
-- How Terraform works in general
-- How Terraform operates in comparison with other IAC tools
-
-- [Any additional comments or observations about the task]
-
-## Participant Details
-- **Name:** Utibe Okon
-- **Task Completed:** Introduction to Terraform and IaC
-- **Date and Time:** 11th Oct 2024 23:07 WAT
-
-## Additional Notes
-- Restarting the challenge for a second time and I plan to actually challenge myself to be consistent. The resources are great and this should be fun.
+- I have read Chapter 1 of "Terraform: Up & Running".
+- I have watched the required Udemy videos.
+- I have written and published a blog post about today's task.
+- I have made a social media post about today's task.
+- I have updated the daily-update.md file with my details.
+- I have created a pull request with all the required details.
+- here is the link to my article: https://dev.to/stack_dev/what-is-infrastructure-as-code-iac-and-why-its-transforming-devops-17a
 
