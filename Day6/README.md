@@ -50,8 +50,8 @@ Welcome to Day 6 of the Terraform 30-Day Challenge! Today, we will focus on unde
 
 ## Checklist
 
-- [ ] I have read Chapter 3 of "Terraform: Up & Running".
-- [ ] I have watched the required Udemy videos.
+- [x] I have read Chapter 3 of "Terraform: Up & Running".
+- [x] I have watched the required Udemy videos.
 - [ ] I have deployed infrastructure and reviewed the Terraform state file.
 - [ ] I have configured remote state storage and state locking.
 - [ ] I have written and published a blog post about today's task.
