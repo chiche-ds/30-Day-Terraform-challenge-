@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS AI/ML UserGroup Kenya//Terraform Challenge//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+SUMMARY:30-Day Terraform Challenge - Start
+DTSTART:20250526T060000Z
+DTEND:20250526T070000Z
+DESCRIPTION:Day 1 of the Terraform Associate Certification Challenge begins! Set up your environment and start your learning journey.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Week 1 Check-in
+DTSTART:20250530T150000Z
+DTEND:20250530T170000Z
+DESCRIPTION:First weekly check-in session. Share your progress, ask questions, and connect with other participants.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Week 2 Check-in
+DTSTART:20250606T150000Z
+DTEND:20250606T170000Z
+DESCRIPTION:Second weekly check-in session. Deep dive into resource management and state handling.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Week 3 Check-in
+DTSTART:20250613T150000Z
+DTEND:20250613T170000Z
+DESCRIPTION:Third weekly check-in session. Focus on advanced concepts and troubleshooting.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Week 4 Check-in
+DTSTART:20250620T150000Z
+DTEND:20250620T170000Z
+DESCRIPTION:Final weekly check-in session. Exam preparation and certification readiness review.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Challenge Completion
+DTSTART:20250624T150000Z
+DTEND:20250624T170000Z
+DESCRIPTION:Final day of the challenge. Complete your submissions and prepare for certification.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Week 1 Blog Post Due
+DTSTART:20250601T205900Z
+DESCRIPTION:Submit your first blog post about your Terraform learning journey.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Week 2 Blog Post Due
+DTSTART:20250608T205900Z
+DESCRIPTION:Submit your second blog post about advanced Terraform concepts.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Week 3 Blog Post Due
+DTSTART:20250615T205900Z
+DESCRIPTION:Submit your third blog post about Terraform best practices.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Week 4 Blog Post Due
+DTSTART:20250622T205900Z
+DESCRIPTION:Submit your final blog post about your certification preparation.
+END:VEVENT
+
+END:VCALENDAR 

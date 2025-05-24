@@ -1,0 +1,27 @@
+[
+  {
+    "name": "reminder",
+    "color": "0075ca",
+    "description": "Automated reminder for challenge activities"
+  },
+  {
+    "name": "check-in",
+    "color": "7057ff",
+    "description": "Weekly check-in related"
+  },
+  {
+    "name": "blog-post",
+    "color": "d876e3",
+    "description": "Blog post related"
+  },
+  {
+    "name": "daily-task",
+    "color": "008672",
+    "description": "Daily challenge task"
+  },
+  {
+    "name": "help-wanted",
+    "color": "008672",
+    "description": "Extra attention is needed"
+  }
+] 

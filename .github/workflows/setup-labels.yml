@@ -1,0 +1,27 @@
+name: Setup Repository Labels
+
+on:
+  workflow_dispatch:  # Manual trigger
+  push:
+    paths:
+      - '.github/labels.json'
+    branches:
+      - main
+
+jobs:
+  setup-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Install GitHub Label Sync
+        run: npm install -g github-label-sync
+        
+      - name: Sync Labels
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          github-label-sync \
+            --access-token $GITHUB_ACCESS_TOKEN \
+            --labels .github/labels.json \
+            ${{ github.repository }} 
